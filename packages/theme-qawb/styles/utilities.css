@@ -1,0 +1,206 @@
+/* --- Glass morphism --- */
+.glass {
+  background: rgba(10, 10, 20, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--white-08);
+}
+
+.glass-subtle {
+  background: rgba(10, 10, 20, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--white-05);
+}
+
+/* --- Glow effects - Cyan --- */
+.glow-cyan {
+  box-shadow:
+    0 0 20px rgba(125, 220, 240, 0.15),
+    0 0 60px rgba(125, 220, 240, 0.05);
+}
+
+.glow-cyan-strong {
+  box-shadow:
+    0 0 30px rgba(125, 220, 240, 0.25),
+    0 0 80px rgba(125, 220, 240, 0.1);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 40px rgba(125, 220, 240, 0.3);
+}
+
+/* --- Glow effects - Pink --- */
+.glow-pink {
+  box-shadow:
+    0 0 20px rgba(206, 75, 229, 0.15),
+    0 0 60px rgba(206, 75, 229, 0.05);
+}
+
+.glow-pink-strong {
+  box-shadow:
+    0 0 30px rgba(206, 75, 229, 0.25),
+    0 0 80px rgba(206, 75, 229, 0.1);
+}
+
+.text-glow-pink {
+  text-shadow: 0 0 40px rgba(206, 75, 229, 0.3);
+}
+
+/* --- Glow effects - Purple --- */
+.glow-purple {
+  box-shadow:
+    0 0 20px rgba(98, 69, 188, 0.15),
+    0 0 60px rgba(98, 69, 188, 0.05);
+}
+
+.text-glow-purple {
+  text-shadow: 0 0 40px rgba(98, 69, 188, 0.3);
+}
+
+/* --- Glow effects - Gradient (cyan + purple) --- */
+.glow-gradient {
+  box-shadow:
+    0 0 20px rgba(125, 220, 240, 0.12),
+    0 0 40px rgba(98, 69, 188, 0.08),
+    0 0 80px rgba(206, 75, 229, 0.05);
+}
+
+/* --- Gradient backgrounds --- */
+.bg-gradient-radial {
+  background: radial-gradient(ellipse at 50% 0%, var(--cyan-08) 0%, transparent 60%);
+}
+
+.bg-gradient-radial-bottom {
+  background: radial-gradient(ellipse at 50% 100%, var(--cyan-08) 0%, transparent 60%);
+}
+
+.bg-gradient-diagonal {
+  background: linear-gradient(135deg, var(--pure-black) 0%, var(--dark-surface) 100%);
+}
+
+.bg-gradient-cyber {
+  background: linear-gradient(135deg, var(--cyan-08) 0%, var(--neon-purple-08) 50%, var(--neon-pink-08) 100%);
+}
+
+/* --- Accent lines --- */
+.accent-bar-top {
+  position: relative;
+}
+
+.accent-bar-top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+}
+
+.accent-bar-left {
+  position: relative;
+}
+
+.accent-bar-left::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 40%;
+  background: var(--cyan);
+  border-radius: 0 2px 2px 0;
+}
+
+/* --- Cards --- */
+.card {
+  padding: 1.5rem;
+  background: var(--white-05);
+  border: 1px solid var(--white-08);
+  border-radius: var(--radius-lg);
+  transition:
+    border-color var(--transition-base),
+    transform var(--transition-base),
+    box-shadow var(--transition-base);
+}
+
+.card:hover {
+  border-color: var(--cyan-dim);
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(125, 220, 240, 0.08);
+}
+
+/* --- Tags/Badges --- */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  background: var(--cyan-08);
+  border: 1px solid var(--cyan-15);
+  border-radius: 100px;
+}
+
+.tag-pink {
+  color: var(--neon-pink);
+  background: var(--neon-pink-08);
+  border-color: var(--neon-pink-15);
+}
+
+.tag-purple {
+  color: var(--neon-purple-glow);
+  background: var(--neon-purple-08);
+  border-color: var(--neon-purple-15);
+}
+
+/* --- Text utilities --- */
+.text-cyan {
+  color: var(--cyan);
+}
+
+.text-pink {
+  color: var(--neon-pink);
+}
+
+.text-purple {
+  color: var(--neon-purple-glow);
+}
+
+.text-dim {
+  color: var(--white-50);
+}
+
+.text-muted {
+  color: var(--white-30);
+}
+
+.text-large {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+}
+
+.text-display {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.text-body-lg {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--white-70);
+}
+
+/* --- Grid dot pattern background --- */
+.bg-dots {
+  background-image: radial-gradient(circle, var(--white-08) 1px, transparent 1px);
+  background-size: 32px 32px;
+}

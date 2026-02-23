@@ -1,0 +1,43 @@
+{
+  "name": "@qawb/showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Showcase presentations for QA Without Borders Mentory",
+  "workspaces": [
+    "packages/*",
+    "presentations/*"
+  ],
+  "scripts": {
+    "dev:pitch": "yarn workspace @qawb/pitch dev",
+    "build:pitch": "yarn workspace @qawb/pitch build",
+    "build:all": "node scripts/build-all.mjs",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,mjs,cjs,vue}": [
+      "eslint --fix"
+    ],
+    "*.{js,mjs,cjs,vue,json,yaml,yml,css}": [
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.8.0",
+    "globals": "^17.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.8.1",
+    "vue-eslint-parser": "^10.4.0"
+  }
+}

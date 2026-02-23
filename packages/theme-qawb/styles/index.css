@@ -1,0 +1,97 @@
+:root {
+  /* Primary accent - Cyan */
+  --cyan: #7ddcf0;
+  --cyan-dim: #5bc4d8;
+  --cyan-glow: #a0e8f8;
+  --cyan-15: rgba(125, 220, 240, 0.15);
+  --cyan-08: rgba(125, 220, 240, 0.08);
+
+  /* Secondary accent - Neon Pink */
+  --neon-pink: #ce4be5;
+  --neon-pink-dim: #b03cc8;
+  --neon-pink-glow: #e070f5;
+  --neon-pink-15: rgba(206, 75, 229, 0.15);
+  --neon-pink-08: rgba(206, 75, 229, 0.08);
+
+  /* Tertiary accent - Neon Purple */
+  --neon-purple: #6245bc;
+  --neon-purple-dim: #4e37a0;
+  --neon-purple-glow: #7b5ed6;
+  --neon-purple-15: rgba(98, 69, 188, 0.15);
+  --neon-purple-08: rgba(98, 69, 188, 0.08);
+
+  /* Backgrounds */
+  --pure-black: #000000;
+  --dark-surface: #0a0a14;
+  --dark-surface-lighter: #141428;
+  --dark-border: #1e1e3a;
+
+  /* Text */
+  --pure-white: #ffffff;
+  --white-90: rgba(255, 255, 255, 0.9);
+  --white-70: rgba(255, 255, 255, 0.7);
+  --white-50: rgba(255, 255, 255, 0.5);
+  --white-30: rgba(255, 255, 255, 0.3);
+  --white-15: rgba(255, 255, 255, 0.15);
+  --white-08: rgba(255, 255, 255, 0.08);
+  --white-05: rgba(255, 255, 255, 0.05);
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.25s ease;
+  --transition-slow: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--pure-black);
+  color: var(--pure-white);
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: var(--cyan);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--cyan-glow);
+}
+
+::selection {
+  background: var(--cyan-15);
+  color: var(--pure-white);
+}
