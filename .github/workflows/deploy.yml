@@ -37,6 +37,8 @@ jobs:
         run: |
           mkdir -p _site
           echo 'showcase.qawithoutborders.com.br' > _site/CNAME
+          cp shared/public/index.html _site/index.html
+          cp shared/assets/logos/logo-full-no-bg.png _site/logo.png
           for dir in presentations/*/dist; do
             name=$(basename "$(dirname "$dir")")
             cp -r "$dir" "_site/$name"
