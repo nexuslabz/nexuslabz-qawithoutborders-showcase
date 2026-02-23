@@ -154,8 +154,8 @@ export default {
       avgLabel: 'Média mensal',
       period: '2 anos e 4 meses',
       periodLabel: 'Período',
-      annual: '~R$ 969.000/ano',
-      annualLabel: 'Receita anual aprox.',
+      annual: '~R$ 969.000',
+      annualLabel: 'Receita total até o momento',
     },
     rennan: {
       name: 'Rennan',
@@ -163,8 +163,8 @@ export default {
       avgLabel: 'Média mensal',
       period: '15 meses',
       periodLabel: 'Tempo',
-      annual: '~R$ 586.204/ano',
-      annualLabel: 'Receita anual aprox.',
+      annual: '~R$ 586.204',
+      annualLabel: 'Receita total até o momento',
     },
   },
 

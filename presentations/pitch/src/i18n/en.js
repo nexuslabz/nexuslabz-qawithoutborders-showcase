@@ -154,8 +154,8 @@ export default {
       avgLabel: 'Monthly average',
       period: '2 years and 4 months',
       periodLabel: 'Period',
-      annual: '~R$ 969,000/yr',
-      annualLabel: 'Approx. annual revenue',
+      annual: '~R$ 969,000',
+      annualLabel: 'Total revenue so far',
     },
     rennan: {
       name: 'Rennan',
@@ -163,8 +163,8 @@ export default {
       avgLabel: 'Monthly average',
       period: '15 months',
       periodLabel: 'Time',
-      annual: '~R$ 586,204/yr',
-      annualLabel: 'Approx. annual revenue',
+      annual: '~R$ 586,204',
+      annualLabel: 'Total revenue so far',
     },
   },
 
