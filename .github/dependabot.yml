@@ -1,0 +1,39 @@
+version: 2
+
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 10
+    reviewers:
+      - nexuslabz
+    labels:
+      - dependencies
+    groups:
+      vue-ecosystem:
+        patterns:
+          - "vue"
+          - "@vitejs/*"
+          - "vite"
+      linting:
+        patterns:
+          - "eslint*"
+          - "prettier*"
+          - "vue-eslint-parser"
+          - "globals"
+      dev-tooling:
+        patterns:
+          - "husky"
+          - "lint-staged"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - ci
