@@ -36,7 +36,18 @@ jobs:
       - name: Encrypt protected presentations
         env:
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
-        run: npx staticrypt presentations/pitch/dist/index.html -d presentations/pitch/dist --short
+        run: >-
+          npx staticrypt presentations/pitch/dist/index.html
+          -d presentations/pitch/dist
+          --short
+          -t shared/staticrypt-template.html
+          --template-title "Acesso Restrito"
+          --template-instructions "Digite a senha para acessar esta apresentação."
+          --template-button "DESBLOQUEAR"
+          --template-placeholder "Senha"
+          --template-remember "Lembrar de mim"
+          --template-error "Senha incorreta!"
+          --remember 7
 
       - name: Assemble site
         run: |

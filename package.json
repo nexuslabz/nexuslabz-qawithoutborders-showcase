@@ -11,7 +11,7 @@
     "dev:pitch": "yarn workspace @qawb/pitch dev",
     "build:pitch": "yarn workspace @qawb/pitch build",
     "build:all": "node scripts/build-all.mjs",
-    "encrypt:pitch": "staticrypt presentations/pitch/dist/index.html -d presentations/pitch/dist --short",
+    "encrypt:pitch": "staticrypt presentations/pitch/dist/index.html -d presentations/pitch/dist --short -t shared/staticrypt-template.html --template-title \"Acesso Restrito\" --template-instructions \"Digite a senha para acessar esta apresentação.\" --template-button \"DESBLOQUEAR\" --template-placeholder \"Senha\" --template-remember \"Lembrar de mim\" --template-error \"Senha incorreta!\" --remember 7",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
