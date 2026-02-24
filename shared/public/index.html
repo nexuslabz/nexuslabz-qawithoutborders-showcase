@@ -182,6 +182,40 @@
       color: var(--cyan);
     }
 
+    .card--locked {
+      border-color: rgba(206, 75, 229, 0.12);
+    }
+
+    .card--locked:hover {
+      border-color: rgba(206, 75, 229, 0.35);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.3), 0 0 20px rgba(206, 75, 229, 0.08);
+    }
+
+    .card--locked .card__icon {
+      background: rgba(206, 75, 229, 0.08);
+    }
+
+    .card--locked:hover .card__arrow {
+      color: var(--neon-pink);
+    }
+
+    .card__lock {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--neon-pink);
+      background: rgba(206, 75, 229, 0.08);
+      border: 1px solid rgba(206, 75, 229, 0.15);
+      border-radius: 100px;
+      padding: 0.2rem 0.6rem;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+
     .footer {
       margin-top: 1rem;
       font-size: 0.75rem;
@@ -216,13 +250,13 @@
     <p class="subtitle animate d3">Apresentações & Slide Decks</p>
 
     <div class="cards">
-      <a href="/pitch/" class="card animate d4">
+      <a href="/pitch/" class="card card--locked animate d4">
         <span class="card__icon">🎯</span>
         <div class="card__text">
           <span class="card__title">Pitch de Venda</span>
-          <span class="card__desc">Mentoria completa para QA Engineers no mercado internacional →</span>
+          <span class="card__desc">Mentoria completa para QA Engineers no mercado internacional</span>
         </div>
-        <span class="card__arrow">→</span>
+        <span class="card__lock">🔒 Restrito</span>
       </a>
     </div>
 

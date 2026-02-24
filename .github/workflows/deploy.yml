@@ -19,10 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: yarn
@@ -32,6 +32,11 @@ jobs:
 
       - name: Build all presentations
         run: node scripts/build-all.mjs
+
+      - name: Encrypt protected presentations
+        env:
+          STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
+        run: npx staticrypt presentations/pitch/dist/index.html -d presentations/pitch/dist --short
 
       - name: Assemble site
         run: |
@@ -45,7 +50,7 @@ jobs:
           done
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
