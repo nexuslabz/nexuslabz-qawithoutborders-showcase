@@ -160,24 +160,24 @@ const progress = computed(() => ((currentSlide.value + 1) / totalSlides.value) *
       <div class="nav-arrows">
         <button class="nav-arrow" :disabled="currentSlide === 0" @click="prev">
           <svg
-            width="18"
-            height="18"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            stroke-width="2.5"
           >
             <path d="M15 18l-6-6 6-6" />
           </svg>
         </button>
         <button class="nav-arrow" :disabled="currentSlide === totalSlides - 1" @click="next">
           <svg
-            width="18"
-            height="18"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            stroke-width="2.5"
           >
             <path d="M9 18l6-6-6-6" />
           </svg>
@@ -222,20 +222,20 @@ const progress = computed(() => ((currentSlide.value + 1) / totalSlides.value) *
   bottom: 0;
   left: 0;
   right: 0;
-  height: 48px;
+  height: 56px;
   display: flex;
   align-items: center;
   gap: 1.5rem;
   padding: 0 2rem;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.88);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-top: 1px solid var(--white-05);
+  border-top: 1px solid var(--white-08);
   z-index: 100;
 }
 
 .nav-counter {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 500;
   font-variant-numeric: tabular-nums;
   color: var(--white-50);
@@ -244,11 +244,12 @@ const progress = computed(() => ((currentSlide.value + 1) / totalSlides.value) *
 
 .nav-current {
   color: var(--cyan);
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .nav-sep {
-  margin: 0 0.25rem;
+  margin: 0 0.3rem;
 }
 
 .nav-progress {
@@ -257,28 +258,28 @@ const progress = computed(() => ((currentSlide.value + 1) / totalSlides.value) *
 
 .nav-progress-track {
   width: 100%;
-  height: 2px;
+  height: 4px;
   background: var(--white-08);
-  border-radius: 2px;
+  border-radius: 4px;
   overflow: hidden;
 }
 
 .nav-progress-fill {
   height: 100%;
   background: linear-gradient(90deg, var(--cyan), var(--neon-purple));
-  border-radius: 2px;
+  border-radius: 4px;
   transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .nav-dots {
   display: flex;
-  gap: 6px;
+  gap: 7px;
   flex-shrink: 0;
 }
 
 .nav-dot {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   border: none;
   background: var(--white-15);
@@ -295,18 +296,18 @@ const progress = computed(() => ((currentSlide.value + 1) / totalSlides.value) *
 
 .nav-dot.active {
   background: var(--cyan);
-  transform: scale(1.4);
+  transform: scale(1.35);
 }
 
 .nav-arrows {
   display: flex;
-  gap: 0.25rem;
+  gap: 0.35rem;
   flex-shrink: 0;
 }
 
 .nav-arrow {
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;

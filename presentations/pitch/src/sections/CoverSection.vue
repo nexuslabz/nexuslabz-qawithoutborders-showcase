@@ -13,7 +13,7 @@ const { t } = inject('i18n');
     <div class="cover__dots" />
 
     <div class="cover__content">
-      <QawbLogo width="320" class="cover__logo animate-scale" :class="{ visible: active }" />
+      <QawbLogo width="450" class="cover__logo animate-scale" :class="{ visible: active }" />
 
       <div class="cover__divider animate-in" :class="{ visible: active }" />
 
@@ -77,32 +77,37 @@ const { t } = inject('i18n');
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
   z-index: 1;
 }
 
 .cover__logo {
-  filter: drop-shadow(0 0 40px rgba(125, 220, 240, 0.15));
+  filter: drop-shadow(0 0 50px rgba(125, 220, 240, 0.18));
 }
 
 .cover__divider {
-  width: 60px;
+  width: 85px;
   height: 2px;
   background: linear-gradient(90deg, transparent, var(--cyan), var(--neon-purple), transparent);
 }
 
 .cover__subtitle {
-  font-size: 1.15rem;
+  font-size: 1.6rem;
   color: var(--white-50);
   font-weight: 400;
-  max-width: 500px;
+  max-width: 650px;
 }
 
 .cover__hint {
   position: absolute;
   bottom: 70px;
-  font-size: 0.8rem;
+  font-size: 1.05rem;
   color: var(--white-30);
   z-index: 1;
+}
+
+.cover .tag {
+  font-size: 1.05rem;
+  padding: 0.35rem 1rem;
 }
 </style>
