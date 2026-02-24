@@ -5,66 +5,44 @@ import LanguageSwitcher from '@theme/components/LanguageSwitcher.vue';
 import en from './i18n/en';
 import ptBR from './i18n/pt-BR';
 import CoverSection from './sections/CoverSection.vue';
-import ProblemSection from './sections/ProblemSection.vue';
-import SolutionSection from './sections/SolutionSection.vue';
-import OverviewSection from './sections/OverviewSection.vue';
-import Mod1PositioningSection from './sections/Mod1PositioningSection.vue';
-import Mod1StepsSection from './sections/Mod1StepsSection.vue';
-import Mod1FormulaSection from './sections/Mod1FormulaSection.vue';
-import Mod1ExampleSection from './sections/Mod1ExampleSection.vue';
-import Mod2CvSection from './sections/Mod2CvSection.vue';
-import Mod2PaisSection from './sections/Mod2PaisSection.vue';
-import Mod2AlignSection from './sections/Mod2AlignSection.vue';
-import Mod3LinkedInSection from './sections/Mod3LinkedInSection.vue';
-import Mod3PracticeSection from './sections/Mod3PracticeSection.vue';
-import Mod3ExperienceSection from './sections/Mod3ExperienceSection.vue';
-import Mod4TechSection from './sections/Mod4TechSection.vue';
-import Mod4TracksSection from './sections/Mod4TracksSection.vue';
-import Mod4GenAiSection from './sections/Mod4GenAiSection.vue';
-import Mod5SoftSkillsSection from './sections/Mod5SoftSkillsSection.vue';
-import Mod5PatternsSection from './sections/Mod5PatternsSection.vue';
-import Mod6CareerSection from './sections/Mod6CareerSection.vue';
-import Mod6PlaybookSection from './sections/Mod6PlaybookSection.vue';
-import IntlTransitionSection from './sections/IntlTransitionSection.vue';
-import Mod7PlatformsSection from './sections/Mod7PlatformsSection.vue';
-import Mod8ApplicationsSection from './sections/Mod8ApplicationsSection.vue';
-import Mod9InterviewSection from './sections/Mod9InterviewSection.vue';
-import ResultsSection from './sections/ResultsSection.vue';
-import ChallengesSection from './sections/ChallengesSection.vue';
-import ClosingSection from './sections/ClosingSection.vue';
+import FounderSection from './sections/FounderSection.vue';
+import RealitySection from './sections/RealitySection.vue';
+import MistakeSection from './sections/MistakeSection.vue';
+import MarketSection from './sections/MarketSection.vue';
+import TurningPointSection from './sections/TurningPointSection.vue';
+import MethodSection from './sections/MethodSection.vue';
+import DeliverablesSection from './sections/DeliverablesSection.vue';
+import HowItWorksSection from './sections/HowItWorksSection.vue';
+import Pillar1Section from './sections/Pillar1Section.vue';
+import Pillar2Section from './sections/Pillar2Section.vue';
+import Pillar3Section from './sections/Pillar3Section.vue';
+import Pillar4Section from './sections/Pillar4Section.vue';
+import Pillar5Section from './sections/Pillar5Section.vue';
+import Pillar6Section from './sections/Pillar6Section.vue';
+import Pillar7Section from './sections/Pillar7Section.vue';
+import GuaranteeSection from './sections/GuaranteeSection.vue';
 
 const i18n = createI18n({ en, 'pt-BR': ptBR });
 provide('i18n', i18n);
 
 const sections = [
   CoverSection,
-  ProblemSection,
-  SolutionSection,
-  OverviewSection,
-  Mod1PositioningSection,
-  Mod1StepsSection,
-  Mod1FormulaSection,
-  Mod1ExampleSection,
-  Mod2CvSection,
-  Mod2PaisSection,
-  Mod2AlignSection,
-  Mod3LinkedInSection,
-  Mod3PracticeSection,
-  Mod3ExperienceSection,
-  Mod4TechSection,
-  Mod4TracksSection,
-  Mod4GenAiSection,
-  Mod5SoftSkillsSection,
-  Mod5PatternsSection,
-  Mod6CareerSection,
-  Mod6PlaybookSection,
-  IntlTransitionSection,
-  Mod7PlatformsSection,
-  Mod8ApplicationsSection,
-  Mod9InterviewSection,
-  ResultsSection,
-  ChallengesSection,
-  ClosingSection,
+  FounderSection,
+  RealitySection,
+  MistakeSection,
+  MarketSection,
+  TurningPointSection,
+  MethodSection,
+  DeliverablesSection,
+  HowItWorksSection,
+  Pillar1Section,
+  Pillar2Section,
+  Pillar3Section,
+  Pillar4Section,
+  Pillar5Section,
+  Pillar6Section,
+  Pillar7Section,
+  GuaranteeSection,
 ];
 
 const container = ref(null);
@@ -214,7 +192,6 @@ const progress = computed(() => ((currentSlide.value + 1) / totalSlides.value) *
   overflow: hidden;
 }
 
-/* --- Navigation Bar --- */
 .nav-bar {
   position: fixed;
   bottom: 0;
@@ -246,13 +223,9 @@ const progress = computed(() => ((currentSlide.value + 1) / totalSlides.value) *
   font-size: 1rem;
 }
 
-.nav-sep {
-  margin: 0 0.3rem;
-}
+.nav-sep { margin: 0 0.3rem; }
 
-.nav-progress {
-  flex: 1;
-}
+.nav-progress { flex: 1; }
 
 .nav-progress-track {
   width: 100%;
@@ -283,14 +256,10 @@ const progress = computed(() => ((currentSlide.value + 1) / totalSlides.value) *
   background: var(--white-15);
   cursor: pointer;
   padding: 0;
-  transition:
-    background var(--transition-fast),
-    transform var(--transition-fast);
+  transition: background var(--transition-fast), transform var(--transition-fast);
 }
 
-.nav-dot:hover {
-  background: var(--white-30);
-}
+.nav-dot:hover { background: var(--white-30); }
 
 .nav-dot.active {
   background: var(--cyan);
@@ -314,9 +283,7 @@ const progress = computed(() => ((currentSlide.value + 1) / totalSlides.value) *
   background: transparent;
   color: var(--white-50);
   cursor: pointer;
-  transition:
-    color var(--transition-fast),
-    border-color var(--transition-fast);
+  transition: color var(--transition-fast), border-color var(--transition-fast);
 }
 
 .nav-arrow:hover:not(:disabled) {

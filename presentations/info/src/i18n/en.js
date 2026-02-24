@@ -1,358 +1,207 @@
 export default {
   cover: {
-    title: 'QA Without Borders',
-    subtitle:
-      'The mentorship that positions you to be chosen (and paid) in the international market',
-    bullets: [
-      'For Junior, Mid and Senior QAs',
-      'Profile clarity + public proof + execution + interviews',
-      'Result: more replies, more interviews, more offers',
-    ],
-    hint: 'Scroll or use arrows to navigate →',
+    subtitle: 'Mentorship for QA Engineers who want to work in the international market',
+    hint: 'Swipe or use arrow keys to navigate →',
   },
 
-  problem: {
-    title: 'The real problem (and what nobody tells you)',
+  founder: {
+    tag: 'Founder Story',
+    title: 'Behind QA Without Borders',
+    name: 'Caio Moloni',
+    paragraphs: [
+      "I didn't build an international career by accident. I treated it as a project.",
+      'In 2018 I started at a startup doing automation on legacy systems. In 2019, at Bosch, I had my first real exposure to global teams and daily English communication. I had always studied English, but for a long time I held myself back thinking I wasn\'t technical enough yet for roles abroad.',
+      'The turning point came in 2023, at Doctoralia, when I moved out on my own and realized firsthand how the CLT employment model and its deductions distort salary perception. That\'s when I switched to working as an independent contractor and set my sights on the international market.',
+      'The first major opportunity came with Yum Brands (Pizza Hut), and from there, interviews and offers started becoming consistent.',
+      'Today I work at People Inc, the largest digital and print publisher in the Americas, with over 40 iconic brands. After being recognized as a top performer in my first year, I visited my team in New York with everything covered.',
+    ],
+    mission: 'QA Without Borders exists to shorten that path with method, guided execution, and feedback — cutting years of trial and error.',
+  },
+
+  reality: {
+    tag: 'The Current Landscape',
+    title: 'The Reality of QA Today',
     items: [
-      "Being a 'generic QA' puts you in limbo",
-      'Long, cluttered CV = screening rejection',
-      'Nice LinkedIn but misaligned = distrust',
-      'Studying a lot without direction = expensive hobby',
-      'Applying a lot without a funnel = anxiety + stagnation',
+      'Qualified professionals remain invisible to the international market due to lack of clear positioning',
+      'Resumes without international structure get filtered out by ATS before reaching a recruiter',
+      'LinkedIn profiles without strategy fail to communicate seniority, specialization, and impact',
+      'Without global visibility, opportunities pass by without you being considered',
     ],
-  },
-
-  solution: {
-    title: 'What changes when you do it right',
-    items: [
-      'In 10s the recruiter understands: who you are + where you work + why hire you',
-      'CV becomes a fast screening tool',
-      'LinkedIn becomes public proof and search SEO',
-      'Stack becomes hiring, not collection',
-      'Process becomes predictable (funnel)',
-      'Interview becomes training, not luck',
-    ],
-  },
-
-  overview: {
-    title: 'Mentorship structure (overview)',
-    coreLabel: 'CORE (Foundation that gets you in the game)',
-    coreItems: [
-      'Professional Positioning',
-      'International Strategic CV',
-      'LinkedIn as an Asset',
-      'Guided Technical Development',
-      'Soft Skills for Strategic QA',
-      'Career Management within the Company',
-    ],
-    intlLabel: 'INTERNATIONAL TRACK (Opportunity Machine)',
-    intlItems: [
-      'Platforms & Networks',
-      'Application Execution',
-      'International Interview Simulation',
-    ],
-  },
-
-  mod1Positioning: {
-    label: 'CORE',
-    title: 'Module 1: Professional Positioning',
-    goal: 'In 10 seconds someone understands who you are and which role you fit',
-    hook: "If your profile doesn't explain in 10s who you are, the recruiter moves on.",
-    deliverable:
-      'A positioning statement that works for CV, LinkedIn and interviews',
-  },
-
-  mod1Steps: {
-    title: 'Module 1: Step by step',
-    items: [
-      "Choose 1 title: QA Analyst / QA Engineer / SDET (don't mix)",
-      'Understand the difference between roles and commit to a target',
-      'Define your product context: Web, API, Mobile, SaaS…',
-      'Map your most recent products and the type of problem you solve',
-    ],
-  },
-
-  mod1Formula: {
-    title: 'Module 1: The formula that positions you',
-    problemsTitle: '3 problems you solve (with real examples):',
-    problems: [
-      'Reduce bugs in production',
-      'Accelerate releases',
-      'Increase team confidence (less rework)',
-    ],
-    formulaIntro: 'Transform this into 1 statement (1–2 lines):',
-    formula:
-      '"I\'m X focused on Y in Z, helping deliver A, B and C (Stack)."',
-  },
-
-  mod1Example: {
-    title: 'Module 1: Example + common mistakes',
-    exampleLabel: 'Strong example:',
-    example:
-      '"I\'m an SDET focused on E2E automation and APIs in SaaS, helping teams reduce regressions, deliver continuous quality and accelerate deploys with CI/CD (Playwright, TS, GitHub Actions)."',
-    errorsLabel: 'Mistakes that kill your chances:',
-    errors: [
-      '"QA passionate about quality" (zero direction)',
-      '5 roles at the same time (desperation)',
-      'Tools only, no impact',
-    ],
-  },
-
-  mod2Cv: {
-    label: 'CORE',
-    title: 'Module 2: International Strategic CV',
-    goal: 'CV becomes fast screening (1–2 pages)',
-    hook: 'Your CV needs to be scannable. And at the same time, impressive.',
-    deliverable:
-      'P-A-I-S structure to transform any experience into proof',
-  },
-
-  mod2Pais: {
-    title: 'Module 2: P-A-I-S Structure (the gold standard)',
-    items: [
-      { letter: 'P', name: 'Problem', desc: 'context and pain' },
-      { letter: 'A', name: 'Action', desc: 'what you did (in practice)' },
-      {
-        letter: 'I',
-        name: 'Impact',
-        desc: 'number/result (even if estimated with logic)',
-      },
-      {
-        letter: 'S',
-        name: 'Stack',
-        desc: 'only what you used there (no clutter)',
-      },
-    ],
-    example:
-      '"Reduced flaky tests by 40% by redesigning Playwright waits and adding network resilience (Playwright, TS, CI)."',
-  },
-
-  mod2Align: {
-    title: "Module 2: CV aligned to JD (no 'shooting blind')",
-    items: [
-      'Read JD and extract real keywords',
-      'Identify your matches',
-      'Translate matches into P-A-I-S bullets',
-      "Ritual: base → review with real JD → final version 'ready to apply'",
-    ],
-    errorsLabel: 'Common mistakes:',
-    errors: [
-      '4 pages',
-      'Infinite list of tools',
-      'Experience without impact or focus on target role',
-    ],
-  },
-
-  mod3LinkedIn: {
-    label: 'CORE',
-    title: 'Module 3: LinkedIn as an Asset',
-    goal: "LinkedIn becomes 'public proof' of your positioning",
-    hook: "Recruiters don't read everything. They glance and decide.",
-    deliverable:
-      'Headline + about + experiences aligned for search (SEO)',
-  },
-
-  mod3Practice: {
-    title: 'Module 3: What changes on LinkedIn (in practice)',
-    headlineLabel: 'Objective headline:',
-    headlineDesc: 'Role + focus + result',
-    headlineExample:
-      '"SDET | Playwright + TypeScript | API & CI/CD | Testing GenAI outputs"',
-    aboutLabel: 'About with structure (showcase):',
-    aboutItems: [
-      'Who you are + years + product type',
-      'Specializations (short and strong)',
-      'Most recent experience (1 highlight)',
-      'Proven impact (metrics and results)',
-    ],
-  },
-
-  mod3Experience: {
-    title: 'Module 3: Experiences that build trust',
-    items: [
-      'Each experience in P-A-I-S',
-      'Keywords repeated naturally (SEO)',
-      "Content consistent with your path (you become 'memorable')",
-    ],
-    errorsLabel: 'Common mistakes:',
-    errors: [
-      'Generic headline',
-      'Saying one thing but experience shows another',
-      'Cluttered stack with no direction',
-    ],
-  },
-
-  mod4Tech: {
-    label: 'CORE',
-    title: 'Module 4: Guided Technical Development',
-    goal: "Study what gives return in jobs, not what's comfortable",
-    hook: "Studying a lot doesn't guarantee a job. Studying right does.",
-    deliverable:
-      'Track based on demand + mini-project that becomes portfolio',
-  },
-
-  mod4Tracks: {
-    title: 'Module 4: Tracks (3 clear paths)',
-    trackA: {
-      name: 'Track A — QA Analyst (4 weeks)',
+    salaryTitle: 'Average salary comparison',
+    salaryBR: {
+      label: 'Brazil (BRL)',
       items: [
-        'Test strategy + risk-based',
-        'Postman + simple validations',
-        'Impeccable bug report',
-        'Basic SQL',
+        { level: 'Junior', range: '2.5k to 3k' },
+        { level: 'Mid-level', range: '6k to 8k' },
+        { level: 'Senior', range: '10k to 12k' },
       ],
-      deliverable: 'test plan + 20 cases + collection + bug report',
     },
-    trackB: {
-      name: 'Track B — QA Engineer (6 weeks)',
+    salaryIntl: {
+      label: 'International market — Nearshore & Offshore (USD)',
       items: [
-        'Playwright/Cypress (critical flows)',
-        'API integrated to setup',
-        'CI/CD on GitHub Actions/GitLab',
-        'Anti-flaky and tagging (@smoke/@regression)',
+        { level: 'Junior', range: '2k' },
+        { level: 'Mid-level', range: '3k to 6k' },
+        { level: 'Senior', range: '7.5k to 8k' },
       ],
-      deliverable: 'E2E suite + pipeline + report + README',
     },
-    trackC: {
-      name: 'Track C — SDET (8–10 weeks)',
+    closing: 'In practice, a Junior QA working internationally can match a Senior salary range in Brazil. The problem is rarely capability — it\'s usually presentation, clarity, and presence.',
+  },
+
+  mistake: {
+    tag: 'The Critical Mistake',
+    title: 'The Mistake That Holds QAs Back',
+    left: {
+      label: 'How many present themselves',
+      title: 'Testers',
       items: [
-        'Architecture, fixtures, data strategy, parallelism',
-        'Contracts, mocks/stubs',
-        'Advanced CI/CD (sharding, smart rerun)',
-        'Metrics and quality gates',
+        'Focus on executing test cases, following scripts, and running tests',
+        'Communication centered on tools, with no impact and no ownership',
       ],
-      deliverable: 'framework + advanced pipeline + history/report',
     },
+    right: {
+      label: 'What the international market looks for',
+      title: 'Engineers',
+      items: [
+        'Critical thinking about quality, defect prevention, and continuous improvement',
+        'Accountability for outcomes, risk, and product reliability',
+      ],
+    },
+    closing: 'The market pays more for those who sustain quality than for those who merely execute verification.',
   },
 
-  mod4GenAi: {
-    title: 'GenAI QA (differentiator across all 3 tracks)',
+  market: {
+    tag: 'Global Market',
+    title: 'What the International Market Looks For',
     items: [
-      'Validate LLM output with rubric (objective criteria)',
-      'Guardrails: format, factuality, policies, toxicity',
-      'Basic LLM Judge for scoring and prompt regression',
+      { title: 'Engineer Mindset', desc: 'Prioritize risk, think in systems, and operate with a product vision' },
+      { title: 'Communication', desc: 'Articulate technical decisions clearly in English and align with stakeholders' },
+      { title: 'Ownership', desc: 'Operate end-to-end, with autonomy and accountability' },
+      { title: 'Technical Confidence', desc: 'Mastery of modern processes, automation, API, and pipeline with consistency' },
     ],
-    result:
-      "You become the 'QA of the future' without becoming a slave to hype",
+    closing: 'Tools are a requirement. Reliability is the differentiator.',
   },
 
-  mod5SoftSkills: {
-    label: 'CORE',
-    title: 'Module 5: Soft Skills for Strategic QA',
-    goal: 'Become a trustworthy QA in an international environment',
-    hook: 'You can be technically excellent and still not get promoted.',
-    deliverable: 'Communication patterns that make you a reference',
+  turningPoint: {
+    tag: 'The Turning Point',
+    headline: "Recruiters don't discover you.",
+    headlineBold: 'They confirm you.',
+    text: "When someone reaches out to you, they've usually already seen your LinkedIn, your resume, and public signals of your level. The mentorship prepares these assets before the first conversation, so you're understood quickly and evaluated for what you actually deliver.",
   },
 
-  mod5Patterns: {
-    title: 'Module 5: 3 patterns that change your game',
-    items: [
-      'Clear communication: context → decision → next step',
-      'Translate technical risk into impact: time, money, reputation',
-      'Conflicts: fact → impact → suggestion (no emotion)',
+  method: {
+    tag: 'The Method',
+    title: 'The Method',
+    steps: [
+      { number: '01', label: 'Positioning', desc: 'Define precisely how the market will see you and which roles you fit' },
+      { number: '02', label: 'Resume', desc: 'International structure and impact-driven language to pass ATS and screening' },
+      { number: '03', label: 'LinkedIn', desc: 'Strategic optimization for global searches and alignment with your target role' },
+      { number: '04', label: 'Visibility', desc: 'Active and consistent presence on relevant international platforms' },
+      { number: '05', label: 'Interviews', desc: 'Simulations based on real job openings with objective feedback for rapid improvement' },
+      { number: '06', label: 'Contracts', desc: 'Negotiation, structuring, and closing with global companies' },
     ],
-    example:
-      '"This bug isn\'t a \'flow error\'. It\'s a conversion risk: checkout fails at X%."',
+    closing: "It's not loose content. It's a complete system for positioning and conversion.",
   },
 
-  mod6Career: {
-    label: 'CORE',
-    title: 'Module 6: Career Management within the Company',
-    goal: 'Grow through trust and impact (even without a title)',
-    hook: "Promotion is almost never about time. It's about trust.",
-    deliverable:
-      'Become a reference by creating small improvement + metric + proof',
-  },
-
-  mod6Playbook: {
-    title: 'Module 6: The playbook of the QA who rises',
+  deliverables: {
+    tag: 'Deliverables',
+    title: 'What You Walk Away With',
     items: [
-      'Identify bottleneck (process, pipeline, rework, criteria)',
-      'Propose small solution (MVP)',
-      'Show before/after with metric',
-      'Document and socialize (wiki/demo)',
-      "Become the person who 'solves and teaches'",
-    ],
-  },
-
-  intlTransition: {
-    label: 'INTERNATIONAL TRACK',
-    title: "The turning point: now you don't depend on 'luck'",
-    hook: "If you only depend on LinkedIn, you have 1 door. Let's create 4.",
-    objective: 'Multiple interview sources → more predictability',
-  },
-
-  mod7Platforms: {
-    title: 'Module 7: Networks & Platforms',
-    items: [
-      'Clone your positioning (headline/about/cases)',
-      'Platforms: Torc, Arc.dev, Workana (LATAM bridge)',
-      'Complete profile focused on results',
-      'Link everything with LinkedIn and portfolio',
-      'Weekly maintenance cadence',
-    ],
-    deliverable: '1 profile 100% ready + 2 publishable cases',
-  },
-
-  mod8Applications: {
-    title: 'Module 8: Application Execution',
-    hook: "Whoever wins the job isn't who applies more. It's who applies better.",
-    items: [
-      'Adapt CV per JD (keywords + focus)',
-      'Organized cadence (kanban/spreadsheet)',
-      'Track: applied → reply → interview → offer',
-      'Funnel diagnosis: No reply = CV/positioning; Fails at interview = communication/English/technical',
-    ],
-    deliverable: 'Active funnel + 10 applications in 7 days (with standard)',
-  },
-
-  mod9Interview: {
-    title: 'Module 9: International Interview Simulation',
-    hook: 'Anxiety is lack of repetition. Interview is training.',
-    items: [
-      'Simulation with real JD',
-      'Direct feedback on 5 axes: English, communication, technical, positioning, confidence',
-      'Repetition focusing on 1–2 adjustments',
-      'Extra training with AI agents (routine)',
-    ],
-    deliverable:
-      '1 recorded answer (60–90s) in Context → Action → Result format',
-  },
-
-  results: {
-    title: "What you'll have at the end (tangible result)",
-    items: [
-      'Strong positioning statement (CV/LinkedIn/interview)',
-      'International CV 1–2 pages (P-A-I-S) + adaptable version per JD',
-      'Aligned and searchable LinkedIn (SEO)',
-      'Technical track with publishable mini-project',
-      'Strategic QA communication (impact and clarity)',
-      'Predictable application funnel',
-      'Simulated interviews with objective feedback',
+      'Clear positioning as a QA Engineer for the international market',
+      'Resume structured for ATS and global recruiters, with a focus on impact',
+      'LinkedIn optimized as an attraction asset and public proof of your level',
+      'Active profiles on global platforms, aligned with the same positioning',
+      'Real international interview simulations and an improvement plan',
+      'Maintenance and continuous evolution plan for year-round consistency',
     ],
   },
 
-  challenges: {
-    title: 'Practical challenges (to turn into real execution)',
+  howItWorks: {
+    tag: 'How It Works',
+    title: 'How It Works',
     items: [
-      '"10 seconds": validate your statement with 3 people',
-      'Rewrite experience in P-A-I-S',
-      'Headline: "does this put me in which role?"',
-      'Mini-project in 7 days (per track)',
-      'Bug in 3 lines: impact + suggestion + next step',
-      'Funnel: 10 applications in 7 days',
-      'Recorded answer (60–90s) with structure',
+      { title: '12-Month Mentorship', desc: 'Continuous and personalized guidance, with phase-based progression' },
+      { title: 'Masterclass + Hotseat', desc: 'Biweekly live sessions with guests and real case resolution' },
+      { title: 'Community', desc: 'Network of professionals with the same goal, sharing practices and opportunities' },
+      { title: 'Kiwify Video Lessons', desc: 'Recorded content on quality, positioning, and international careers' },
+      { title: 'Guided Execution', desc: 'Pace and direction so you keep moving forward without getting stuck at any stage' },
     ],
   },
 
-  closing: {
-    quote:
-      "If the recruiter doesn't discover, they confirm. If you don't project the right image, the first impression sticks.",
-    ctaTitle: 'Next step:',
-    ctaDesc: 'Join the mentorship and follow the weekly plan',
+  pillar1: {
+    tag: 'Pillar 1',
+    title: 'Professional Positioning',
     items: [
-      "You don't need more content",
-      'You need direction + execution + feedback',
+      'Transition from a generic profile to a clear narrative aligned with the global market',
+      'Define your target, specialization, and product context to be understood in seconds',
+      'Build a personal brand focused on seniority, impact, and consistency',
     ],
+  },
+
+  pillar2: {
+    tag: 'Pillar 2',
+    title: 'International Resume',
+    items: [
+      'Objective, scannable structure compatible with ATS',
+      'Experiences described with context, action, and result — avoiding tool lists',
+      'Per-role adjustments to maximize response rate and interviews',
+    ],
+  },
+
+  pillar3: {
+    tag: 'Pillar 3',
+    title: 'LinkedIn as an Asset',
+    items: [
+      'Headline, About, and Experience sections aligned with your target role and global keywords',
+      'Profile designed to confirm seniority and specialization in seconds',
+      'Content and presence strategy to reinforce authority consistently',
+    ],
+  },
+
+  pillar4: {
+    tag: 'Pillar 4',
+    title: 'Strategic Soft Skills',
+    items: [
+      'Technical communication in English with clarity, directness, and confidence',
+      'Ownership and professional presence in high-performance international environments',
+      'Practical frameworks for alignment, risk reporting, and decision-making',
+    ],
+  },
+
+  pillar5: {
+    tag: 'Pillar 5',
+    title: 'Career Management',
+    items: [
+      'Planning to grow in the international market with a long-term vision',
+      'Strategies for increasing value, stability, and seniority progression',
+      'How to stay relevant and in demand across different market cycles',
+    ],
+  },
+
+  pillar6: {
+    tag: 'Pillar 6',
+    title: 'Networking & International Visibility',
+    items: [
+      'Building presence on global platforms and channels where recruiters search',
+      'Connection, reputation, and public proof strategies beyond LinkedIn alone',
+      'Maintenance routine to stay visible with consistency',
+    ],
+  },
+
+  pillar7: {
+    tag: 'Pillar 7',
+    title: 'Platform Funneling + Interview Simulation',
+    items: [
+      'Strategic focus on the right platforms with predictable execution cadence',
+      'Application funnel with metrics to quickly adjust what underperforms',
+      'Real international interview simulations with targeted feedback',
+    ],
+  },
+
+  guarantee: {
+    tag: 'Guarantee',
+    title: 'Follow-Up Guarantee',
+    text: "If after 3 months the mentee hasn't achieved clear results — such as interviews or international opportunities — they enter a 1:1 track with the mentor.",
+    objective: 'Identify and unblock the specific bottlenecks preventing the first opportunity.',
+    detail: 'A direct and practical plan with personalized adjustments to positioning, resume, LinkedIn, funnel execution, and interview performance — until the mentee is back on a consistent growth track.',
   },
 };

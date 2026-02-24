@@ -1,358 +1,207 @@
 export default {
   cover: {
-    title: 'QA Without Borders',
-    subtitle:
-      'A mentoria que te posiciona pra ser escolhido (e pago) no mercado internacional.',
-    bullets: [
-      'Para QA Júnior, Pleno e Sênior',
-      'Clareza de perfil + prova pública + execução + entrevistas',
-      'Resultado: mais respostas, mais entrevistas, mais propostas',
-    ],
+    subtitle: 'Mentoria para QA Engineers que querem atuar no mercado internacional',
     hint: 'Deslize ou use as setas para navegar →',
   },
 
-  problem: {
-    title: 'O problema real (e o que ninguém te conta)',
+  founder: {
+    tag: 'Founder Story',
+    title: 'Por trás da QA Without Borders',
+    name: 'Caio Moloni',
+    paragraphs: [
+      'Eu não construí carreira internacional por acaso. Eu tratei isso como projeto.',
+      'Em 2018 comecei em startup com automação em legado. Em 2019, na Bosch, tive o primeiro contato real com times globais e comunicação em inglês no dia a dia. Eu sempre estudei inglês, mas por muito tempo me sabotei achando que ainda não era técnico o suficiente para as vagas lá fora.',
+      'A virada veio em 2023, na Doctoralia, quando fui morar sozinho e percebi na prática como o modelo CLT e seus descontos distorcem a percepção de salário. Foi ali que mudei a chave para atuar como prestador de serviços e mirar no mercado internacional.',
+      'A primeira grande oportunidade veio com a Yum Brands (Pizza Hut) e, a partir daí, as entrevistas e ofertas começaram a se tornar consistentes.',
+      'Hoje atuo na People Inc, a maior editora digital e impressa das Américas, com mais de 40 marcas icônicas. Depois de ser destaque no primeiro ano, conheci meu time em Nova Iorque com tudo pago.',
+    ],
+    mission: 'A QA Without Borders existe para encurtar esse caminho com método, execução guiada e feedback, reduzindo anos de tentativa e erro.',
+  },
+
+  reality: {
+    tag: 'O Cenário Atual',
+    title: 'A Realidade do QA Hoje',
     items: [
-      'Ser "QA genérico" te coloca no limbo',
-      'CV longo e poluído = reprovação na triagem',
-      'LinkedIn bonito mas desalinhado = desconfiança',
-      'Estudar muito sem direção = hobby caro',
-      'Aplicar muito sem funil = ansiedade + estagnação',
+      'Profissionais qualificados continuam invisíveis para o mercado internacional por falta de posicionamento claro',
+      'Currículos sem estrutura internacional ficam pelo caminho nos filtros e ATS antes de chegar em um recrutador',
+      'LinkedIn sem estratégia não comunica senioridade, especialização e impacto',
+      'Sem visibilidade global, oportunidades passam sem você ser considerado',
     ],
-  },
-
-  solution: {
-    title: 'O que muda quando você faz do jeito certo',
-    items: [
-      'Em 10s recrutador entende: quem você é + onde você atua + por que te contratar',
-      'CV vira ferramenta de triagem rápida',
-      'LinkedIn vira prova pública e SEO pra busca',
-      'Stack vira contratação, não coleção',
-      'Processo vira previsível (funil)',
-      'Entrevista vira treino, não sorte',
-    ],
-  },
-
-  overview: {
-    title: 'A estrutura da mentoria (visão geral)',
-    coreLabel: 'CORE (Base que te coloca no jogo)',
-    coreItems: [
-      'Posicionamento Profissional',
-      'Currículo Estratégico Internacional',
-      'LinkedIn como Ativo',
-      'Desenvolvimento Técnico Guiado',
-      'Soft Skills pra QA Estratégico',
-      'Gestão de Carreira dentro da Empresa',
-    ],
-    intlLabel: 'TRILHA INTERNACIONAL (Máquina de Oportunidades)',
-    intlItems: [
-      'Plataformas e Redes',
-      'Execução de Candidaturas',
-      'Simulação de Entrevista Internacional',
-    ],
-  },
-
-  mod1Positioning: {
-    label: 'CORE',
-    title: 'Módulo 1: Posicionamento Profissional',
-    goal: 'Em 10 segundos alguém entender quem você é e pra qual vaga serve.',
-    hook: 'Se seu perfil não explica em 10s quem você é, o recrutador passa.',
-    deliverable:
-      'Uma frase de posicionamento que serve pra CV, LinkedIn e entrevista.',
-  },
-
-  mod1Steps: {
-    title: 'Módulo 1: Passo a passo',
-    items: [
-      'Escolher 1 título: QA Analyst / QA Engineer / SDET (sem misturar)',
-      'Entender a diferença entre os cargos e assumir um alvo',
-      'Definir seu contexto de produto: Web, API, Mobile, SaaS…',
-      'Mapear seus produtos mais recentes e o tipo de problema que você resolve',
-    ],
-  },
-
-  mod1Formula: {
-    title: 'Módulo 1: A fórmula que te posiciona',
-    problemsTitle: '3 problemas que você resolve (com exemplos reais):',
-    problems: [
-      'Reduzir bugs em produção',
-      'Acelerar releases',
-      'Aumentar confiança do time (menos retrabalho)',
-    ],
-    formulaIntro: 'Transformar isso em 1 frase (1–2 linhas):',
-    formula:
-      '"Sou X focado em Y em Z, ajudando a gerar A, B e C (Stack)."',
-  },
-
-  mod1Example: {
-    title: 'Módulo 1: Exemplo + erros comuns',
-    exampleLabel: 'Exemplo forte:',
-    example:
-      '"Sou SDET focado em automação E2E e APIs em SaaS, ajudando times a reduzir regressões, entregar qualidade contínua e acelerar deploys com CI/CD (Playwright, TS, GitHub Actions)."',
-    errorsLabel: 'Erros que matam sua chance:',
-    errors: [
-      '"QA apaixonado por qualidade" (zero direção)',
-      '5 cargos ao mesmo tempo (desespero)',
-      'Só ferramenta, sem impacto',
-    ],
-  },
-
-  mod2Cv: {
-    label: 'CORE',
-    title: 'Módulo 2: Currículo Estratégico Internacional',
-    goal: 'CV virar triagem rápida (1–2 páginas).',
-    hook: 'Seu CV precisa ser escaneável. E ao mesmo tempo, impressionar.',
-    deliverable:
-      'Estrutura P-A-I-S pra transformar qualquer experiência em prova.',
-  },
-
-  mod2Pais: {
-    title: 'Módulo 2: Estrutura P-A-I-S (o padrão ouro)',
-    items: [
-      { letter: 'P', name: 'Problema', desc: 'Contexto e dor' },
-      { letter: 'A', name: 'Ação', desc: 'O que você fez (na prática)' },
-      {
-        letter: 'I',
-        name: 'Impacto',
-        desc: 'Número/resultado (mesmo que estimado com lógica)',
-      },
-      {
-        letter: 'S',
-        name: 'Stack',
-        desc: 'Só o que você usou ali (sem poluição)',
-      },
-    ],
-    example:
-      '"Reduced flaky tests by 40% by redesigning Playwright waits and adding network resilience (Playwright, TS, CI)."',
-  },
-
-  mod2Align: {
-    title: 'Módulo 2: CV alinhado ao JD (sem "atirar no escuro")',
-    items: [
-      'Ler JD e extrair as palavras-chave reais',
-      'Identificar seus "matchs"',
-      'Traduzir os matchs em bullets P-A-I-S',
-      'Ritual: base → revisão com JD real → versão final "pronta pra aplicar"',
-    ],
-    errorsLabel: 'Erros comuns:',
-    errors: [
-      '4 páginas',
-      'Lista infinita de ferramentas',
-      'Experiência sem impacto e sem foco no cargo alvo',
-    ],
-  },
-
-  mod3LinkedIn: {
-    label: 'CORE',
-    title: 'Módulo 3: LinkedIn como Ativo',
-    goal: 'LinkedIn virar "prova pública" do seu posicionamento.',
-    hook: 'Recrutador não lê tudo. Ele bate o olho e decide.',
-    deliverable:
-      'Headline + about + experiências alinhadas pra busca (SEO).',
-  },
-
-  mod3Practice: {
-    title: 'Módulo 3: O que muda no LinkedIn (na prática)',
-    headlineLabel: 'Headline objetiva:',
-    headlineDesc: 'Cargo + foco + resultado.',
-    headlineExample:
-      '"SDET | Playwright + TypeScript | API & CI/CD | Testing GenAI outputs"',
-    aboutLabel: 'About com estrutura (vitrine):',
-    aboutItems: [
-      'Quem você é + anos + tipo de produto',
-      'Especializações (curto e forte)',
-      'Experiência mais recente (1 destaque)',
-      'Impacto provado (métricas e resultados)',
-    ],
-  },
-
-  mod3Experience: {
-    title: 'Módulo 3: Experiências que passam confiança',
-    items: [
-      'Cada experiência em P-A-I-S',
-      'Palavras-chave repetidas com naturalidade (SEO)',
-      'Conteúdo coerente com a trilha (você vira "lembrável")',
-    ],
-    errorsLabel: 'Erros comuns:',
-    errors: [
-      'Headline genérica',
-      'Dizer uma coisa e experiência mostrar outra',
-      'Stack poluída e sem direção',
-    ],
-  },
-
-  mod4Tech: {
-    label: 'CORE',
-    title: 'Módulo 4: Desenvolvimento Técnico Guiado',
-    goal: 'Estudar o que dá retorno em vaga, não o confortável.',
-    hook: 'Estudar muito não garante vaga. Estudar certo garante.',
-    deliverable:
-      'Trilha baseada em demanda + mini-projeto que vira portfólio.',
-  },
-
-  mod4Tracks: {
-    title: 'Módulo 4: Trilhas (3 caminhos claros)',
-    trackA: {
-      name: 'Trilha A — QA Analyst (4 semanas)',
+    salaryTitle: 'Comparativo salarial médio',
+    salaryBR: {
+      label: 'Brasil (R$)',
       items: [
-        'Estratégia de teste + risk-based',
-        'Postman + validações simples',
-        'Bug report impecável',
-        'SQL básico',
+        { level: 'Júnior', range: '2.5k a 3k' },
+        { level: 'Pleno', range: '6k a 8k' },
+        { level: 'Sênior', range: '10k a 12k' },
       ],
-      deliverable: 'Test plan + 20 casos + collection + relatório de bugs',
     },
-    trackB: {
-      name: 'Trilha B — QA Engineer (6 semanas)',
+    salaryIntl: {
+      label: 'Mercado internacional Nearshore e Outshore (USD)',
       items: [
-        'Playwright/Cypress (fluxos críticos)',
-        'API integrada ao setup',
-        'CI/CD no GitHub Actions/GitLab',
-        'Anti-flaky e tagging (@smoke/@regression)',
+        { level: 'Júnior', range: '2k' },
+        { level: 'Pleno', range: '3k a 6k' },
+        { level: 'Sênior', range: '7.5k a 8k' },
       ],
-      deliverable: 'Suite E2E + pipeline + report + README',
     },
-    trackC: {
-      name: 'Trilha C — SDET (8–10 semanas)',
+    closing: 'Na prática, um QA Júnior na gringa pode encostar em faixa de Sênior no Brasil. O problema raramente é capacidade. Normalmente é apresentação, clareza e presença.',
+  },
+
+  mistake: {
+    tag: 'O Erro Crítico',
+    title: 'O Erro Que Trava QAs',
+    left: {
+      label: 'Como muitos se apresentam',
+      title: 'Testadores',
       items: [
-        'Arquitetura, fixtures, data strategy, paralelismo',
-        'Contratos, mocks/stubs',
-        'CI/CD avançado (sharding, rerun inteligente)',
-        'Métricas e quality gates',
+        'Foco em executar casos, seguir roteiros e rodar testes',
+        'Comunicação centrada em ferramenta, sem impacto e sem ownership',
       ],
-      deliverable: 'Framework + pipeline avançado + histórico/report',
     },
+    right: {
+      label: 'O que o mercado internacional procura',
+      title: 'Engineers',
+      items: [
+        'Pensamento crítico sobre qualidade, prevenção de defeitos e melhoria contínua',
+        'Responsabilidade por resultado, risco e confiabilidade do produto',
+      ],
+    },
+    closing: 'O mercado paga mais por quem sustenta qualidade do que por quem apenas executa verificação.',
   },
 
-  mod4GenAi: {
-    title: 'GenAI QA (diferencial nas 3 trilhas)',
+  market: {
+    tag: 'Mercado Global',
+    title: 'O Que o Mercado Internacional Procura',
     items: [
-      'Validar saída de LLM com rubrica (critérios objetivos)',
-      'Guardrails: formato, factualidade, políticas, toxicidade',
-      'LLM Judge básico pra scoring e regressão de prompts',
+      { title: 'Mentalidade Engineer', desc: 'Priorizar risco, pensar em sistemas e atuar com visão de produto' },
+      { title: 'Comunicação', desc: 'Articular decisões técnicas com clareza em inglês e alinhamento com stakeholders' },
+      { title: 'Ownership', desc: 'Atuar de ponta a ponta, com autonomia e accountability' },
+      { title: 'Confiança Técnica', desc: 'Domínio de processos modernos, automação, API e pipeline com consistência' },
     ],
-    result: 'Você vira "QA do futuro" sem virar refém de hype',
+    closing: 'Ferramenta é requisito. Confiabilidade é diferencial.',
   },
 
-  mod5SoftSkills: {
-    label: 'CORE',
-    title: 'Módulo 5: Soft Skills pra QA Estratégico',
-    goal: 'Virar QA confiável em ambiente internacional.',
-    hook: 'Você pode ser excelente tecnicamente e ainda assim não ser promovido.',
-    deliverable:
-      'Padrões de comunicação que te colocam como referência.',
+  turningPoint: {
+    tag: 'A Virada',
+    headline: 'Recrutador não descobre.',
+    headlineBold: 'Ele confirma.',
+    text: 'Quando alguém chega até você, geralmente já viu seu LinkedIn, seu currículo e sinais públicos do seu nível. A mentoria prepara esses ativos antes da primeira conversa, para que você seja entendido rapidamente e avaliado pelo que realmente entrega.',
   },
 
-  mod5Patterns: {
-    title: 'Módulo 5: 3 padrões que mudam teu jogo',
-    items: [
-      'Comunicação clara: contexto → decisão → próximo passo',
-      'Traduzir risco técnico em impacto: tempo, dinheiro, reputação',
-      'Conflitos: fato → impacto → sugestão (sem emoção)',
+  method: {
+    tag: 'O Método',
+    title: 'O Método',
+    steps: [
+      { number: '01', label: 'Posicionamento', desc: 'Definir com precisão como o mercado vai te enxergar e qual vaga você serve' },
+      { number: '02', label: 'Currículo', desc: 'Estrutura internacional e linguagem orientada a impacto para passar em ATS e triagem' },
+      { number: '03', label: 'LinkedIn', desc: 'Otimização estratégica para buscas globais e coerência com o cargo alvo' },
+      { number: '04', label: 'Visibilidade', desc: 'Presença ativa e consistente em plataformas internacionais relevantes' },
+      { number: '05', label: 'Entrevistas', desc: 'Simulações com base em vagas reais e feedback objetivo para evolução rápida' },
+      { number: '06', label: 'Contratos', desc: 'Negociação, estruturação e fechamento com empresas globais' },
     ],
-    example:
-      '"Esse bug não é \'erro no fluxo\'. É risco de conversão: checkout falha em X%."',
+    closing: 'Não é conteúdo solto. É um sistema completo de posicionamento e conversão.',
   },
 
-  mod6Career: {
-    label: 'CORE',
-    title: 'Módulo 6: Gestão de Carreira dentro da Empresa',
-    goal: 'Crescer por confiança e impacto (mesmo sem cargo).',
-    hook: 'Promoção quase nunca é sobre tempo. É sobre confiança.',
-    deliverable:
-      'Virar referência criando melhoria pequena + métrica + prova.',
-  },
-
-  mod6Playbook: {
-    title: 'Módulo 6: O playbook do QA que sobe',
+  deliverables: {
+    tag: 'Entregáveis',
+    title: 'O Que Você Leva',
     items: [
-      'Identificar gargalo (processo, pipeline, retrabalho, critérios)',
-      'Propor solução pequena (MVP)',
-      'Mostrar antes/depois com métrica',
-      'Documentar e socializar (wiki/demo)',
-      'Virar a pessoa que "resolve e ensina"',
-    ],
-  },
-
-  intlTransition: {
-    label: 'TRILHA INTERNACIONAL',
-    title: 'A virada: agora você não depende de "sorte"',
-    hook: 'Se você depende só do LinkedIn, você tem 1 porta. Vamos criar 4.',
-    objective: 'Múltiplas fontes de entrevistas → mais previsibilidade.',
-  },
-
-  mod7Platforms: {
-    title: 'Módulo 7: Redes e Plataformas',
-    items: [
-      'Clonar seu posicionamento (headline/about/cases)',
-      'Plataformas: Torc, Arc.dev, Workana (ponte LATAM)',
-      'Perfil completo com foco em resultado',
-      'Linkar tudo com LinkedIn e portfólio',
-      'Cadência semanal de manutenção',
-    ],
-    deliverable: '1 perfil 100% pronto + 2 cases publicáveis',
-  },
-
-  mod8Applications: {
-    title: 'Módulo 8: Execução de Candidaturas',
-    hook: 'Quem ganha vaga não é quem aplica mais. É quem aplica melhor.',
-    items: [
-      'Adaptar CV por JD (keywords + foco)',
-      'Cadência organizada (kanban/planilha)',
-      'Track: applied → reply → interview → offer',
-      'Diagnóstico do funil: sem resposta = CV/posicionamento; cai na entrevista = comunicação/inglês/técnica',
-    ],
-    deliverable: 'Funil ativo + 10 aplicações em 7 dias (com padrão)',
-  },
-
-  mod9Interview: {
-    title: 'Módulo 9: Simulação de Entrevista Internacional',
-    hook: 'Ansiedade é falta de repetição. Entrevista é treino.',
-    items: [
-      'Simulação com JD real',
-      'Feedback direto em 5 eixos: inglês, comunicação, técnica, posicionamento, confiança',
-      'Repetição com foco em 1–2 ajustes',
-      'Treino extra com agentes de IA (rotina)',
-    ],
-    deliverable:
-      '1 resposta gravada (60–90s) no padrão Contexto → Ação → Resultado',
-  },
-
-  results: {
-    title: 'O que você vai ter no final (resultado palpável)',
-    items: [
-      'Frase de posicionamento forte (CV/LinkedIn/entrevista)',
-      'CV 1–2 páginas internacional (P-A-I-S) + versão adaptável por JD',
-      'LinkedIn alinhado e buscável (SEO)',
-      'Trilha técnica com mini-projeto publicável',
-      'Comunicação de QA estratégico (impacto e clareza)',
-      'Funil de candidaturas previsível',
-      'Entrevistas simuladas com feedback objetivo',
+      'Posicionamento claro como QA Engineer para o mercado internacional',
+      'Currículo estruturado para ATS e recrutadores globais, com foco em impacto',
+      'LinkedIn otimizado como ativo de atração e prova pública do seu nível',
+      'Perfis ativos em plataformas globais, alinhados ao mesmo posicionamento',
+      'Simulações reais de entrevistas internacionais e plano de melhoria',
+      'Plano de manutenção e evolução contínua para consistência ao longo do ano',
     ],
   },
 
-  challenges: {
-    title: 'Desafios práticos (pra virar execução de verdade)',
+  howItWorks: {
+    tag: 'Funcionamento',
+    title: 'Como Funciona',
     items: [
-      '"10 segundos": validar sua frase com 3 pessoas',
-      'Reescrever experiência em P-A-I-S',
-      'Headline: "isso me coloca em qual vaga?"',
-      'Mini-projeto em 7 dias (por trilha)',
-      'Bug em 3 linhas: impacto + sugestão + next step',
-      'Funil: 10 aplicações em 7 dias',
-      'Resposta gravada (60–90s) com estrutura',
+      { title: 'Mentoria 12 meses', desc: 'Acompanhamento contínuo e personalizado, com evolução por fases' },
+      { title: 'Masterclass + Hotseat', desc: 'Sessões quinzenais ao vivo com convidados e resolução de casos reais' },
+      { title: 'Comunidade', desc: 'Rede de profissionais com o mesmo objetivo, trocando práticas e oportunidades' },
+      { title: 'Kiwify com videoaulas', desc: 'Conteúdo gravado sobre qualidade, posicionamento e carreira internacional' },
+      { title: 'Execução guiada', desc: 'Ritmo e direção para você avançar sem ficar travado em nenhuma etapa' },
     ],
   },
 
-  closing: {
-    quote:
-      'Se o recrutador não descobre, ele confirma. Se você não passa a imagem certa, a primeira impressão fica.',
-    ctaTitle: 'Próximo passo:',
-    ctaDesc: 'Entrar na mentoria e seguir o plano semanal.',
+  pillar1: {
+    tag: 'Pilar 1',
+    title: 'Posicionamento Profissional',
     items: [
-      'Você não precisa de mais conteúdo',
-      'Você precisa de direção + execução + feedback',
+      'Transição de perfil genérico para narrativa clara e alinhada ao mercado global',
+      'Definição de alvo, especialização e contexto de produto para ser entendido em segundos',
+      'Construção de marca pessoal com foco em senioridade, impacto e consistência',
     ],
+  },
+
+  pillar2: {
+    tag: 'Pilar 2',
+    title: 'Currículo Internacional',
+    items: [
+      'Estrutura objetiva, escaneável e compatível com ATS',
+      'Experiências descritas com contexto, ação e resultado, evitando lista de ferramentas',
+      'Ajuste por vaga para maximizar taxa de resposta e entrevistas',
+    ],
+  },
+
+  pillar3: {
+    tag: 'Pilar 3',
+    title: 'LinkedIn Como Ativo',
+    items: [
+      'Headline, About e Experiências alinhados ao seu cargo alvo e palavras-chave globais',
+      'Perfil desenhado para confirmar senioridade e especialização em poucos segundos',
+      'Estratégia de conteúdo e presença para reforçar autoridade de forma consistente',
+    ],
+  },
+
+  pillar4: {
+    tag: 'Pilar 4',
+    title: 'Soft Skills Estratégicas',
+    items: [
+      'Comunicação técnica em inglês com clareza, objetividade e segurança',
+      'Ownership e postura profissional em ambientes internacionais de alta performance',
+      'Estruturas práticas para alinhamento, reporte de risco e tomada de decisão',
+    ],
+  },
+
+  pillar5: {
+    tag: 'Pilar 5',
+    title: 'Gestão de Carreira',
+    items: [
+      'Planejamento para crescer no mercado internacional com visão de longo prazo',
+      'Estratégias para aumento de valor, estabilidade e progressão de senioridade',
+      'Como se manter relevante e desejado mesmo em ciclos de mercado diferentes',
+    ],
+  },
+
+  pillar6: {
+    tag: 'Pilar 6',
+    title: 'Networking e Visibilidade Internacional',
+    items: [
+      'Construção de presença em plataformas globais e canais onde recrutadores buscam',
+      'Estratégias de conexão, reputação e prova pública sem depender só do LinkedIn',
+      'Rotina de manutenção para se manter visível com consistência',
+    ],
+  },
+
+  pillar7: {
+    tag: 'Pilar 7',
+    title: 'Afunilamento de Plataformas + Simulação',
+    items: [
+      'Foco estratégico nas plataformas certas e execução com cadência previsível',
+      'Funil de candidaturas com métricas para ajustar rapidamente o que não performa',
+      'Simulações reais de entrevistas internacionais com feedback direcionado',
+    ],
+  },
+
+  guarantee: {
+    tag: 'Garantia',
+    title: 'Garantia de Acompanhamento',
+    text: 'Se em 3 meses o mentorado não tiver resultado claro, como entrevistas ou oportunidades internacionais, ele entra em uma trilha 1:1 com o mentor.',
+    objective: 'Identificar e destravar os bottlenecks específicos que estão impedindo a primeira oportunidade.',
+    detail: 'Plano direto e prático, com ajustes personalizados em posicionamento, currículo, LinkedIn, execução do funil e performance em entrevista, até o mentorado voltar a evoluir com consistência.',
   },
 };

@@ -21,21 +21,10 @@ const { t } = inject('i18n');
         {{ t('cover.subtitle') }}
       </p>
 
-      <ul class="cover__bullets">
-        <li
-          v-for="(bullet, i) in t('cover.bullets')"
-          :key="i"
-          class="cover__bullet animate-in"
-          :class="['delay-' + (i + 2), { visible: active }]"
-        >
-          {{ bullet }}
-        </li>
-      </ul>
-
-      <span class="tag animate-in delay-5" :class="{ visible: active }">2026</span>
+      <span class="tag animate-in delay-2" :class="{ visible: active }">2026</span>
     </div>
 
-    <p class="cover__hint animate-in delay-5" :class="{ visible: active }">
+    <p class="cover__hint animate-in delay-4" :class="{ visible: active }">
       {{ t('cover.hint') }}
     </p>
   </section>
@@ -88,7 +77,7 @@ const { t } = inject('i18n');
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
   z-index: 1;
 }
 
@@ -103,37 +92,10 @@ const { t } = inject('i18n');
 }
 
 .cover__subtitle {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: var(--white-50);
   font-weight: 400;
   max-width: 650px;
-}
-
-.cover__bullets {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.cover__bullet {
-  font-size: 1rem;
-  color: var(--white-70);
-  position: relative;
-  padding-left: 1.2rem;
-}
-
-.cover__bullet::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--cyan);
-  box-shadow: 0 0 8px rgba(125, 220, 240, 0.4);
 }
 
 .cover__hint {
