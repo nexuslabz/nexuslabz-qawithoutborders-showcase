@@ -110,4 +110,27 @@ const { t } = inject('i18n');
   font-size: 1.05rem;
   padding: 0.35rem 1rem;
 }
+
+@media (max-width: 768px) {
+  .cover__content {
+    gap: 1.5rem;
+    padding: 0 1.5rem;
+  }
+
+  .cover__logo {
+    max-width: 85vw;
+    height: auto;
+  }
+
+  .cover__subtitle {
+    font-size: 1.35rem;
+    max-width: 100%;
+    line-height: 1.45;
+  }
+
+  .cover__hint {
+    bottom: 5rem;
+    font-size: 0.9rem;
+  }
+}
 </style>

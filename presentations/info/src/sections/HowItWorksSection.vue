@@ -62,8 +62,8 @@ const icons = ['📅', '🎓', '👥', '🎥', '🚀'];
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  padding: 3rem;
+  gap: 1.5rem;
+  padding: 2rem 2.5rem;
   max-width: 800px;
   z-index: 1;
 }
@@ -77,15 +77,15 @@ const icons = ['📅', '🎓', '👥', '🎥', '🚀'];
 .how__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 0.75rem;
   width: 100%;
 }
 
 .how__card {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
-  padding: 1.5rem;
+  gap: 0.45rem;
+  padding: 1rem 1.15rem;
   border-radius: var(--radius-md);
   position: relative;
   overflow: hidden;
@@ -108,25 +108,74 @@ const icons = ['📅', '🎓', '👥', '🎥', '🚀'];
 }
 
 .how__icon {
-  font-size: 1.4rem;
-  width: 44px;
-  height: 44px;
+  font-size: 1.2rem;
+  width: 36px;
+  height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--cyan-08);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
 }
 
 .how__card h3 {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--pure-white);
 }
 
 .how__card p {
-  font-size: 0.82rem;
-  line-height: 1.55;
+  font-size: 0.8rem;
+  line-height: 1.5;
   color: var(--white-50);
+}
+
+@media (max-width: 768px) {
+  .how {
+    align-items: flex-start;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .how__glow {
+    width: 320px;
+    height: 220px;
+  }
+
+  .how__content {
+    padding: 1rem 1.25rem;
+    gap: 0.85rem;
+    max-height: 100%;
+    overflow-y: auto;
+  }
+
+  .how__title {
+    font-size: clamp(1.35rem, 5vw, 1.75rem);
+  }
+
+  .how__grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .how__card {
+    padding: 0.6rem 0.85rem;
+    gap: 0.35rem;
+  }
+
+  .how__icon {
+    font-size: 1rem;
+    width: 28px;
+    height: 28px;
+  }
+
+  .how__card h3 {
+    font-size: 0.82rem;
+  }
+
+  .how__card p {
+    font-size: 0.75rem;
+    line-height: 1.45;
+  }
 }
 </style>

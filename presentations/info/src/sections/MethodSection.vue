@@ -165,4 +165,54 @@ const { t } = inject('i18n');
   text-align: center;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .method {
+    align-items: flex-start;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .method__glow {
+    width: 280px;
+    height: 400px;
+  }
+
+  .method__content {
+    padding: 1.25rem 1.5rem;
+    gap: 1rem;
+    max-height: 100%;
+    overflow-y: auto;
+  }
+
+  .method__title {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+  }
+
+  .method__funnel {
+    gap: 0.4rem;
+  }
+
+  .method__step-content {
+    padding: 0.65rem 1rem 0.65rem 1.15rem;
+  }
+
+  .method__number {
+    font-size: 0.7rem;
+    width: 20px;
+  }
+
+  .method__step-text h3 {
+    font-size: 0.85rem;
+  }
+
+  .method__step-text p {
+    font-size: 0.75rem;
+  }
+
+  .method__closing {
+    font-size: 0.85rem;
+    padding: 0.55rem 1rem;
+  }
+}
 </style>

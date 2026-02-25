@@ -111,4 +111,47 @@ const { t } = inject('i18n');
   line-height: 1.5;
   color: var(--white-70);
 }
+
+@media (max-width: 768px) {
+  .deliverables {
+    align-items: flex-start;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .deliverables__glow {
+    width: 380px;
+    height: 380px;
+  }
+
+  .deliverables__content {
+    padding: 1.25rem 1.5rem;
+    gap: 1rem;
+    max-height: 100%;
+    overflow-y: auto;
+  }
+
+  .deliverables__title {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+  }
+
+  .deliverables__list {
+    gap: 0.45rem;
+  }
+
+  .deliverables__item {
+    padding: 0.7rem 1rem;
+    gap: 0.75rem;
+  }
+
+  .deliverables__check {
+    font-size: 1rem;
+    width: 28px;
+    height: 28px;
+  }
+
+  .deliverables__item p {
+    font-size: 0.85rem;
+  }
+}
 </style>
