@@ -190,6 +190,7 @@ const progress = computed(() => ((currentSlide.value + 1) / totalSlides.value) *
   scroll-snap-align: start;
   position: relative;
   overflow: hidden;
+  overflow-y: auto;
 }
 
 .nav-bar {
@@ -294,5 +295,45 @@ const progress = computed(() => ((currentSlide.value + 1) / totalSlides.value) *
 .nav-arrow:disabled {
   opacity: 0.25;
   cursor: default;
+}
+
+@media (max-width: 768px) {
+  .presentation {
+    height: 100svh;
+  }
+
+  .slide {
+    height: 100svh;
+    padding-top: max(env(safe-area-inset-top, 0px), 4rem);
+    box-sizing: border-box;
+  }
+
+  .nav-bar {
+    height: 48px;
+    padding: 0 1rem;
+    gap: 0.75rem;
+  }
+
+  .nav-counter {
+    font-size: 0.75rem;
+  }
+
+  .nav-current {
+    font-size: 0.85rem;
+  }
+
+  .nav-dots {
+    gap: 5px;
+  }
+
+  .nav-dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  .nav-arrow {
+    width: 30px;
+    height: 30px;
+  }
 }
 </style>

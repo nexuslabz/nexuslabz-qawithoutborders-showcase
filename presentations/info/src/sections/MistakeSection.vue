@@ -155,4 +155,37 @@ const { t } = inject('i18n');
   text-align: center;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .mistake__content {
+    padding: 2.25rem 1.5rem;
+    gap: 1.25rem;
+  }
+
+  .mistake__title {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+  }
+
+  .mistake__columns {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .mistake__col {
+    padding: 1.4rem 1.25rem;
+  }
+
+  .mistake__col-title {
+    font-size: clamp(1.1rem, 4.2vw, 1.4rem);
+  }
+
+  .mistake__list li {
+    font-size: 0.9rem;
+  }
+
+  .mistake__closing {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+}
 </style>

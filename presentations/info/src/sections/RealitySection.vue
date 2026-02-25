@@ -17,14 +17,11 @@ const { t } = inject('i18n');
       </h2>
 
       <div class="reality__items">
-        <div
-          v-for="(item, i) in t('reality.items')"
-          :key="i"
-          class="reality__item glass animate-in"
-          :class="['delay-' + (i + 2), { visible: active }]"
-        >
+        <div class="reality__item glass animate-in delay-2" :class="{ visible: active }">
           <span class="reality__icon">⚠️</span>
-          <p>{{ item }}</p>
+          <div class="reality__item-text">
+            <p v-for="(item, i) in t('reality.items')" :key="i">{{ item }}</p>
+          </div>
         </div>
       </div>
 
@@ -40,7 +37,10 @@ const { t } = inject('i18n');
               class="reality__salary-row"
             >
               <span class="reality__salary-level">{{ entry.level }}</span>
-              <span class="reality__salary-range">{{ entry.range }}</span>
+              <div class="reality__salary-values reality__salary-values--br">
+                <span class="reality__salary-range">{{ entry.range }}</span>
+                <span class="reality__salary-brl reality__salary-brl--placeholder" aria-hidden="true">&#8203;</span>
+              </div>
             </div>
           </div>
 
@@ -49,10 +49,13 @@ const { t } = inject('i18n');
             <div
               v-for="(entry, i) in t('reality.salaryIntl.items')"
               :key="i"
-              class="reality__salary-row"
+              class="reality__salary-row reality__salary-row--intl"
             >
               <span class="reality__salary-level">{{ entry.level }}</span>
-              <span class="reality__salary-range reality__salary-range--intl">{{ entry.range }}</span>
+              <div class="reality__salary-values reality__salary-intl-values">
+                <span class="reality__salary-range reality__salary-range--intl">{{ entry.range }}</span>
+                <span class="reality__salary-brl">{{ entry.rangeBRL }}</span>
+              </div>
             </div>
           </div>
         </div>
@@ -123,10 +126,17 @@ const { t } = inject('i18n');
   flex-shrink: 0;
 }
 
+.reality__item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
 .reality__item p {
   font-size: 0.9rem;
   line-height: 1.6;
   color: var(--white-70);
+  margin: 0;
 }
 
 .reality__salary {
@@ -164,6 +174,7 @@ const { t } = inject('i18n');
   color: var(--white-50);
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--white-08);
+  white-space: pre-line;
 }
 
 .reality__salary-label--intl {
@@ -173,13 +184,40 @@ const { t } = inject('i18n');
 .reality__salary-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 0.3rem 0;
 }
 
 .reality__salary-level {
   font-size: 0.82rem;
   color: var(--white-50);
+  flex-shrink: 0;
+}
+
+.reality__salary-values {
+  min-width: 10ch;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.reality__salary-values--br,
+.reality__salary-intl-values {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.15rem;
+}
+
+@media (min-width: 769px) {
+  .reality__salary-level {
+    width: 10ch;
+    min-width: 10ch;
+  }
+
+  .reality__salary-values {
+    width: 14ch;
+    min-width: 14ch;
+  }
 }
 
 .reality__salary-range {
@@ -193,6 +231,26 @@ const { t } = inject('i18n');
   color: var(--cyan);
 }
 
+.reality__salary-brl {
+  font-size: 0.7rem;
+  color: var(--white-50);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.reality__salary-brl--placeholder {
+  font-size: 0.7rem;
+  line-height: 1.2;
+  color: transparent;
+  user-select: none;
+  pointer-events: none;
+}
+
+.reality__salary-brl--placeholder::after {
+  content: '\00a0';
+  display: block;
+}
+
 .reality__closing {
   font-size: 0.95rem;
   font-weight: 500;
@@ -202,5 +260,88 @@ const { t } = inject('i18n');
   border: 1px solid rgba(206, 75, 229, 0.15);
   border-radius: var(--radius-md);
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .reality {
+    align-items: flex-start;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .reality__content {
+    padding: 1rem 1.25rem;
+    gap: 0.75rem;
+    max-height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .reality__title {
+    font-size: clamp(1.35rem, 4.5vw, 1.85rem);
+  }
+
+  .reality__items {
+    gap: 0.35rem;
+  }
+
+  .reality__item {
+    padding: 0.6rem 0.85rem;
+    gap: 0.5rem;
+  }
+
+  .reality__icon {
+    font-size: 1rem;
+  }
+
+  .reality__item-text {
+    gap: 0.35rem;
+  }
+
+  .reality__item p {
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+
+  .reality__salary {
+    gap: 0.5rem;
+  }
+
+  .reality__salary-title {
+    font-size: 0.95rem;
+  }
+
+  .reality__salary-panels {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+
+  .reality__salary-panel {
+    padding: 0.65rem 0.85rem;
+    gap: 0.35rem;
+  }
+
+  .reality__salary-label {
+    font-size: 0.7rem;
+    padding-bottom: 0.35rem;
+  }
+
+  .reality__salary-row {
+    padding: 0.2rem 0;
+  }
+
+  .reality__salary-level,
+  .reality__salary-range {
+    font-size: 0.75rem;
+  }
+
+  .reality__salary-brl {
+    font-size: 0.65rem;
+  }
+
+  .reality__closing {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.85rem;
+  }
 }
 </style>

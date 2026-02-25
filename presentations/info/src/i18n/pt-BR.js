@@ -22,14 +22,13 @@ export default {
     tag: 'O Cenário Atual',
     title: 'A Realidade do QA Hoje',
     items: [
-      'Profissionais qualificados continuam invisíveis para o mercado internacional por falta de posicionamento claro',
-      'Currículos sem estrutura internacional ficam pelo caminho nos filtros e ATS antes de chegar em um recrutador',
-      'LinkedIn sem estratégia não comunica senioridade, especialização e impacto',
-      'Sem visibilidade global, oportunidades passam sem você ser considerado',
+      'Currículo e posicionamento fracos deixam QAs invisíveis no mercado global.',
+      'LinkedIn sem estratégia não comunica seu valor.',
+      'Pouca visibilidade faz as melhores oportunidades passarem longe.',
     ],
     salaryTitle: 'Comparativo salarial médio',
     salaryBR: {
-      label: 'Brasil (R$)',
+      label: 'Brasil\n(R$)',
       items: [
         { level: 'Júnior', range: '2.5k a 3k' },
         { level: 'Pleno', range: '6k a 8k' },
@@ -39,9 +38,9 @@ export default {
     salaryIntl: {
       label: 'Mercado internacional Nearshore e Outshore (USD)',
       items: [
-        { level: 'Júnior', range: '2k' },
-        { level: 'Pleno', range: '3k a 6k' },
-        { level: 'Sênior', range: '7.5k a 8k' },
+        { level: 'Júnior', range: '2k', rangeBRL: '≈ 10k R$' },
+        { level: 'Pleno', range: '3k a 6k', rangeBRL: '≈ 15k a 30k R$' },
+        { level: 'Sênior', range: '7.5k a 8k', rangeBRL: '≈ 37,5k a 40k R$' },
       ],
     },
     closing: 'Na prática, um QA Júnior na gringa pode encostar em faixa de Sênior no Brasil. O problema raramente é capacidade. Normalmente é apresentação, clareza e presença.',

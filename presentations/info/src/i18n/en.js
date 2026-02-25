@@ -22,14 +22,13 @@ export default {
     tag: 'The Current Landscape',
     title: 'The Reality of QA Today',
     items: [
-      'Qualified professionals remain invisible to the international market due to lack of clear positioning',
-      'Resumes without international structure get filtered out by ATS before reaching a recruiter',
-      'LinkedIn profiles without strategy fail to communicate seniority, specialization, and impact',
-      'Without global visibility, opportunities pass by without you being considered',
+      'Weak positioning and resumes keep good QAs invisible to the global market.',
+      'A LinkedIn profile without strategy doesn\'t communicate your value.',
+      'Low visibility lets the best opportunities pass you by.',
     ],
     salaryTitle: 'Average salary comparison',
     salaryBR: {
-      label: 'Brazil (BRL)',
+      label: 'Brazil\n(BRL)',
       items: [
         { level: 'Junior', range: '2.5k to 3k' },
         { level: 'Mid-level', range: '6k to 8k' },
@@ -39,9 +38,9 @@ export default {
     salaryIntl: {
       label: 'International market — Nearshore & Offshore (USD)',
       items: [
-        { level: 'Junior', range: '2k' },
-        { level: 'Mid-level', range: '3k to 6k' },
-        { level: 'Senior', range: '7.5k to 8k' },
+        { level: 'Junior', range: '2k', rangeBRL: '≈ 10k BRL' },
+        { level: 'Mid-level', range: '3k to 6k', rangeBRL: '≈ 15k to 30k BRL' },
+        { level: 'Senior', range: '7.5k to 8k', rangeBRL: '≈ 37.5k to 40k BRL' },
       ],
     },
     closing: 'In practice, a Junior QA working internationally can match a Senior salary range in Brazil. The problem is rarely capability — it\'s usually presentation, clarity, and presence.',
