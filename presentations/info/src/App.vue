@@ -5,7 +5,7 @@ import LanguageSwitcher from '@theme/components/LanguageSwitcher.vue';
 import en from './i18n/en';
 import ptBR from './i18n/pt-BR';
 import CoverSection from './sections/CoverSection.vue';
-import FounderSection from './sections/FounderSection.vue';
+import MentorsSection from './sections/MentorsSection.vue';
 import RealitySection from './sections/RealitySection.vue';
 import MistakeSection from './sections/MistakeSection.vue';
 import MarketSection from './sections/MarketSection.vue';
@@ -27,7 +27,7 @@ provide('i18n', i18n);
 
 const sections = [
   CoverSection,
-  FounderSection,
+  MentorsSection,
   RealitySection,
   MistakeSection,
   MarketSection,

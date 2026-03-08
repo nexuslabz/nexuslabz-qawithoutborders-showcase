@@ -4,18 +4,26 @@ export default {
     hint: 'Deslize ou use as setas para navegar →',
   },
 
-  founder: {
-    tag: 'Founder Story',
-    title: 'Por trás da QA Without Borders',
-    name: 'Caio Moloni',
-    paragraphs: [
-      'Eu não construí carreira internacional por acaso. Eu tratei isso como projeto.',
-      'Em 2018 comecei em startup com automação em legado. Em 2019, na Bosch, tive o primeiro contato real com times globais e comunicação em inglês no dia a dia. Eu sempre estudei inglês, mas por muito tempo me sabotei achando que ainda não era técnico o suficiente para as vagas lá fora.',
-      'A virada veio em 2023, na Doctoralia, quando fui morar sozinho e percebi na prática como o modelo CLT e seus descontos distorcem a percepção de salário. Foi ali que mudei a chave para atuar como prestador de serviços e mirar no mercado internacional.',
-      'A primeira grande oportunidade veio com a Yum Brands (Pizza Hut) e, a partir daí, as entrevistas e ofertas começaram a se tornar consistentes.',
-      'Hoje atuo na People Inc, a maior editora digital e impressa das Américas, com mais de 40 marcas icônicas. Depois de ser destaque no primeiro ano, conheci meu time em Nova Iorque com tudo pago.',
-    ],
-    mission: 'A QA Without Borders existe para encurtar esse caminho com método, execução guiada e feedback, reduzindo anos de tentativa e erro.',
+  mentors: {
+    tag: 'Quem está por trás da mentoria?',
+    caio: {
+      name: 'Caio Moloni',
+      title: 'Fundador',
+      role: 'Senior QA',
+      company: '@People Inc',
+      experience: '+8 anos de carreira',
+      intl: '+3 anos de exp internacional',
+      flags: ['us'],
+    },
+    mentor2: {
+      name: 'Rennan Gimenez',
+      title: 'Co-Fundador',
+      role: 'Senior SDET',
+      company: '@Howdy & @Babel',
+      experience: '+8 anos de carreira',
+      intl: '+2 anos de exp internacional',
+      flags: ['us', 'pt'],
+    },
   },
 
   reality: {
