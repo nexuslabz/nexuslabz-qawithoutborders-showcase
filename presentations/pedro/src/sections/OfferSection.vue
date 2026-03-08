@@ -28,9 +28,7 @@ const t = inject('t');
             v-for="(option, i) in t('offer.options')"
             :key="i"
             class="offer__option"
-            :class="{ 'offer__option--highlight': i === 1 }"
           >
-            <span v-if="i === 1" class="offer__badge">Melhor custo-benefício</span>
             <span class="offer__option-label">{{ option.label }}</span>
             <span class="offer__option-value">{{ option.value }}</span>
             <span v-if="option.suffix" class="offer__option-suffix">{{ option.suffix }}</span>
@@ -162,36 +160,6 @@ const t = inject('t');
   border: 1px solid var(--white-08);
   position: relative;
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
-}
-
-.offer__option--highlight {
-  transform: scale(1.08);
-  border-color: var(--cyan);
-  background: rgba(125, 220, 240, 0.06);
-  box-shadow:
-    0 0 30px rgba(125, 220, 240, 0.2),
-    0 0 60px rgba(206, 75, 229, 0.1);
-}
-
-.offer__option--highlight .offer__option-value {
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
-}
-
-.offer__badge {
-  position: absolute;
-  top: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.6rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--cyan);
-  background: var(--pure-black);
-  padding: 0.15rem 0.5rem;
-  border-radius: 100px;
-  border: 1px solid var(--cyan-15);
-  white-space: nowrap;
 }
 
 .offer__option-label {
