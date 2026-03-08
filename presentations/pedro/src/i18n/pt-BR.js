@@ -1,0 +1,243 @@
+export default {
+  cover: {
+    welcome: 'Bem-vindo ao seu atalho da primeira vaga internacional!',
+    hint: 'Deslize ou use as setas para navegar →',
+  },
+
+  mentors: {
+    tag: 'Quem está por trás da mentoria?',
+    caio: {
+      name: 'Caio Moloni',
+      title: 'Fundador',
+      role: 'Senior QA',
+      company: '@People Inc',
+      experience: '+8 anos de carreira',
+      intl: '+3 anos de exp internacional',
+      flags: ['us'],
+    },
+    mentor2: {
+      name: 'Rennan Gimenez',
+      title: 'Co-Fundador',
+      role: 'Senior SDET',
+      company: '@Howdy & @Babel',
+      experience: '+8 anos de carreira',
+      intl: '+2 anos de exp internacional',
+      flags: ['us', 'pt'],
+    },
+  },
+
+  profile: {
+    tag: 'Quem é',
+    name: 'Pedro Victor',
+    nameFull: 'Pedro Victor Soares Teófilo',
+    role: 'Junior QA Analyst',
+    description:
+      'QA Analyst em início de carreira, atuando em ambientes ágeis com Scrum. Realiza testes manuais e funcionais em plataformas mobile (Android, iOS, Mac), testes de API com Postman, e cria cenários com BDD/Gherkin. Organizado, comunicativo e focado em melhoria contínua.',
+    highlights: [
+      { label: 'Experiência', value: '~6 meses em QA' },
+      { label: 'Formação', value: 'Engenharia de Software (3º semestre)' },
+      { label: 'Inglês', value: 'Básico/Intermediário (CV já em inglês)' },
+    ],
+    companies: 'BR Gaap Corporation, CEIA',
+    skills: 'Testes manuais, Mobile (Android/iOS/Mac), API (Postman, Isonomia), BDD/Gherkin, Azure DevOps, Scrum, GitHub',
+    current:
+      'Atualmente na BR Gaap Corporation como Junior QA Analyst, realizando testes funcionais, regressivos e exploratórios em ambiente ágil com Scrum.',
+  },
+
+  whyHere: {
+    tag: 'Por que o Pedro está aqui hoje?',
+    headline: 'Para acelerar a evolução de QA Júnior',
+    headlineBold: 'para um perfil completo e valorizado.',
+    points: [
+      'Ele já está construindo base sólida com BDD, testes de API e mobile — precisa de direcionamento prático do que dá retorno no mercado.',
+      'A mentoria ajuda a criar stack e portfólio de QA moderno (rotina, projetos e narrativa), e preparar o caminho para oportunidades maiores.',
+      'Começar cedo com posicionamento correto encurta em anos o caminho para o mercado internacional.',
+    ],
+    closing: 'Quem começa posicionado certo, chega mais rápido. E o Pedro está no momento ideal pra isso.',
+  },
+
+  yearOfQAs: {
+    tag: '2026',
+    title: 'Porque esse ano vai ser o ano dos QAs?',
+  },
+
+  shoreModels: {
+    tag: 'Modelos de contratação',
+    title: 'Onshore / Nearshore / Offshore',
+    models: [
+      {
+        name: 'Onshore',
+        desc: 'Você presta serviço para uma empresa do mesmo país do cliente, geralmente no mesmo fuso/idioma e com mais facilidade logística.',
+      },
+      {
+        name: 'Nearshore',
+        desc: 'Você presta serviço de um país próximo ao do cliente, com fuso parecido e boa sobreposição de horário.',
+      },
+      {
+        name: 'Offshore',
+        desc: 'Você presta serviço de um país distante do cliente, com menos overlap de horário e mais trabalho assíncrono.',
+      },
+    ],
+  },
+
+  intlMarket: {
+    tag: 'Mercado Internacional',
+    title: 'Como funciona o mercado internacional',
+    text: 'A maioria das oportunidades internacionais que chegam para brasileiros não vem direto do "cliente final" — elas vêm por hubs de consultoria (o "guarda-chuva" de consultorias).',
+    highlight:
+      'Quando você entra nesse guarda-chuva pela primeira oportunidade, sua estabilidade no mercado internacional aumenta muito: ao terminar um contrato, a consultoria geralmente realoca você em outro cliente, mantendo seu fluxo de trabalho ativo.',
+  },
+
+  salary: {
+    tag: 'Comparativo Salarial',
+    title: 'Comparativo salarial USD × R$',
+    nearshore: {
+      label: 'Nearshore para Brasil/LATAM',
+      items: [
+        { level: 'Junior', usd: '~US$ 2.0k/mês', brl: '≈ R$ 10.2k/mês' },
+        { level: 'Pleno', usd: '~US$ 3–6k/mês', brl: '≈ R$ 15–30k/mês' },
+        { level: 'Sênior', usd: '~US$ 7.5–8k/mês', brl: '≈ R$ 38–41k/mês' },
+      ],
+    },
+    brazil: {
+      label: 'Mercado local Brasil',
+      items: [
+        { level: 'Junior', range: 'R$ 2.5k–3k/mês' },
+        { level: 'Pleno', range: 'R$ 6k–8k/mês' },
+        { level: 'Sênior', range: 'R$ 10k–12k/mês' },
+      ],
+    },
+    closing:
+      'Um QA Júnior na gringa pode encostar na faixa de Sênior no Brasil. Pedro, com o posicionamento certo desde agora, pode acessar essa faixa muito mais rápido do que a média.',
+  },
+
+  barriers: {
+    tag: 'Barreiras',
+    title: 'Por que brasileiros não conseguem oportunidades internacionais?',
+    items: [
+      { text: 'Acham que precisa de inglês fluente e nem aplicam.', bold: 'inglês fluente' },
+      { text: 'Confundem fluência com comunicação clara.', bold: 'comunicação clara' },
+      { text: 'Pensam que EUA é só tech de ponta (muito é legado).', bold: 'tech de ponta' },
+      {
+        text: 'Subestimam a graduação brasileira (lá fora conta e é diferencial).',
+        bold: 'graduação brasileira',
+      },
+    ],
+  },
+
+  solution: {
+    tag: 'A Solução',
+    title: 'Como podemos solucionar esse problema?',
+    steps: [
+      {
+        number: '01',
+        label: 'Posicionamento',
+        desc: '1 foco + 1 alternativa. Definir em 1 frase: Junior QA Analyst com base sólida em BDD, testes mobile e API, buscando crescimento acelerado no mercado internacional.',
+      },
+      {
+        number: '02',
+        label: 'LinkedIn/CV',
+        desc: 'Ajustar para narrativa com resultado + escopo + impacto. Destacar a base em Scrum, BDD/Gherkin, testes cross-platform e a formação em Engenharia de Software.',
+      },
+      {
+        number: '03',
+        label: 'Inglês na prática',
+        desc: 'Simulações curtas semanais: daily, alinhamento com dev/PM, defender qualidade, explicar bug, negociar prazo. Scripts + frases de escape. Foco em clareza > fluência.',
+      },
+      {
+        number: '04',
+        label: 'Execução internacional',
+        desc: 'Montar funil (onde aplicar, como se apresentar, responder recruiter, manter consistência). Mock interviews + feedback semanal até aplicar sem medo.',
+      },
+    ],
+  },
+
+  pillars: {
+    tag: 'Os 7 Pilares',
+    title: 'Os Pilares da Mentoria',
+    items: [
+      { number: '01', title: 'Posicionamento Profissional', desc: 'De executor invisível a referência técnica no mercado global' },
+      { number: '02', title: 'Currículo Internacional', desc: 'Estruturação para ATS e recrutadores globais' },
+      { number: '03', title: 'LinkedIn Como Ativo', desc: 'Otimização estratégica para visibilidade e atração de oportunidades' },
+      { number: '04', title: 'Soft Skills Estratégicas', desc: 'Comunicação técnica em inglês, ownership e mentalidade engineer' },
+      { number: '05', title: 'Gestão de Carreira', desc: 'Planejamento de longo prazo para crescimento internacional' },
+      { number: '06', title: 'Networking e Visibilidade', desc: 'Presença em plataformas globais para ser encontrado por recrutadores' },
+      { number: '07', title: 'Plataformas + Simulação', desc: 'Foco nas plataformas certas e simulações reais de entrevistas internacionais' },
+    ],
+  },
+
+  deliverables: {
+    tag: 'Entregáveis',
+    title: 'O Que Você Leva',
+    items: [
+      'Posicionamento claro como QA Engineer para o mercado internacional',
+      'Currículo estruturado para ATS e recrutadores globais, com foco em impacto',
+      'LinkedIn otimizado como ativo de atração e prova pública do seu nível',
+      'Perfis ativos em plataformas globais, alinhados ao mesmo posicionamento',
+      'Simulações reais de entrevistas internacionais e plano de melhoria',
+      'Plano de manutenção e evolução contínua para consistência ao longo do ano',
+    ],
+  },
+
+  howItWorks: {
+    tag: 'Funcionamento',
+    title: 'Como Funciona',
+    items: [
+      { title: 'Encontros 1:1 por 12 meses', desc: 'Todos os encontros dessa turma especial são individuais — acompanhamento direto com o mentor, focado na sua evolução' },
+      { title: 'Masterclass + Hotseat', desc: 'Sessões quinzenais ao vivo com convidados e resolução de casos reais' },
+      { title: 'Comunidade', desc: 'Rede de profissionais com o mesmo objetivo, trocando práticas e oportunidades' },
+      { title: 'Kiwify com videoaulas', desc: 'Conteúdo gravado sobre qualidade, posicionamento e carreira internacional' },
+      { title: 'Execução guiada', desc: 'Ritmo e direção para você avançar sem ficar travado em nenhuma etapa' },
+    ],
+  },
+
+  guarantee: {
+    tag: 'Garantia',
+    title: 'Garantia de Acompanhamento',
+    text: 'Se em 3 meses você não tiver resultado claro — como entrevistas ou oportunidades internacionais — a gente não te abandona. Pelo contrário:',
+    objective: 'Aumento na frequência dos encontros 1:1 + acompanhamento hands-on direto com o mentor para identificar e destravar os bottlenecks específicos que estão impedindo a primeira oportunidade.',
+    detail: 'O mentor entra junto com você na execução: ajustes personalizados em posicionamento, currículo, LinkedIn, execução do funil e performance em entrevista — tudo lado a lado até o resultado aparecer.',
+  },
+
+  whyMentorship: {
+    tag: 'Por que essa mentoria?',
+    title: 'Por que essa mentoria faz sentido pra você?',
+    points: [
+      'Porque o Pedro já tem fundamento e disciplina (BDD, Scrum, API testing, mobile) e precisa de direcionamento prático do que dá retorno no mercado.',
+      'A mentoria ajuda a criar stack e portfólio de QA moderno (rotina, projetos e narrativa), e preparar o caminho para oportunidades maiores — inclusive uma trilha futura para mercado internacional.',
+      'Quem começa com posicionamento correto no início da carreira, economiza anos de tentativa e erro. O Pedro está no momento ideal.',
+    ],
+  },
+
+  pricing: {
+    tag: 'Acesso',
+    title: 'Acesso ao Método Completo',
+    items: [
+      'Encontros 1:1 individuais por 12 meses',
+      'Método completo de internacionalização',
+      'Execução guiada passo a passo',
+      'Simulações reais de entrevistas',
+      'Masterclass + Hotseat + Comunidade',
+      'Videoaulas na plataforma Kiwify',
+    ],
+    price: 'R$ 5.000',
+    priceNote: 'Valor integral do programa',
+  },
+
+  offer: {
+    tag: 'Oferta Especial',
+    title: 'OFERTA ESPECIAL',
+    originalPrice: 'R$ 5.000',
+    subtitle: 'Pensando na sua realidade e momento atual, e por você fazer parte da nossa turma VIP de lançamento:',
+    options: [
+      { label: '12x de', value: 'R$ 150', suffix: '/mês' },
+      { label: '18x de', value: 'R$ 105', suffix: '/mês' },
+      { label: 'À vista por', value: 'R$ 1.500', suffix: '' },
+    ],
+    note: 'Condição exclusiva para turma VIP de lançamento.',
+  },
+
+  closing: {
+    text: 'Queremos ouvir de você Pedro, o que achou?',
+  },
+};
