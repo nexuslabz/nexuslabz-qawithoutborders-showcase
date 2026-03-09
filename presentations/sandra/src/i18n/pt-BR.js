@@ -32,7 +32,7 @@ export default {
     nameFull: 'Sandra Rayane Mendonça Ferreira',
     role: 'Senior QA Automation Engineer',
     description:
-      'Especialista em Qualidade de Software com 12 anos de experiência em testes manuais e automatizados. Certificação CTFL, atuação em times cross e consultoria para implementação de processos de qualidade.',
+      'São 12 anos trabalhando com qualidade de software, entre testes manuais e automatizados. Tem certificação CTFL, já atuou em times cross e fez consultoria pra implementação de processos de qualidade.',
     highlights: [
       { label: 'Experiência', value: '12 anos em QA' },
       { label: 'Certificação', value: 'CTFL' },
@@ -41,7 +41,7 @@ export default {
     companies: 'TIVIT/ENEL, Zup/DELL, CWI/ABC, Resource IT/BNB, K2/Sodexo, Envolti/AMBEV',
     skills: 'Cypress, RobotFramework, Appium, Selenium, Java, JavaScript, Ruby, SQL, JMeter, KarateDSL',
     current:
-      'Atualmente na Envolti, alocada na AMBEV no time SmartCargas, realizando automação de testes para sistemas WEB e APIs.',
+      'Hoje está na Envolti, alocada na AMBEV no time SmartCargas, fazendo automação de testes pra sistemas WEB e APIs.',
   },
 
   whyHere: {
@@ -50,8 +50,8 @@ export default {
     headlineBold: 'em oportunidade internacional.',
     points: [
       'Ela já tem base técnica sólida, certificação e histórico em empresas de peso.',
-      'O próximo passo é transformar isso em posicionamento claro e presença global.',
-      'Precisa de direcionamento estratégico para sair do mercado local e acessar vagas internacionais com confiança.',
+      'O próximo passo é transformar tudo isso em posicionamento claro e presença global.',
+      'Precisa de direcionamento estratégico pra sair do mercado local e acessar vagas internacionais com confiança.',
     ],
     closing: 'Ela já está construindo qualidade há 12 anos. Agora é hora de colher resultado de carreira.',
   },
@@ -67,7 +67,7 @@ export default {
     models: [
       {
         name: 'Onshore',
-        desc: 'Você presta serviço para uma empresa do mesmo país do cliente, geralmente no mesmo fuso/idioma e com mais facilidade logística.',
+        desc: 'Você presta serviço para uma empresa do mesmo país do cliente, geralmente no mesmo fuso e idioma, com mais facilidade logística.',
       },
       {
         name: 'Nearshore',
@@ -83,9 +83,9 @@ export default {
   intlMarket: {
     tag: 'Mercado Internacional',
     title: 'Como funciona o mercado internacional',
-    text: 'A maioria das oportunidades internacionais que chegam para brasileiros não vem direto do "cliente final" — elas vêm por hubs de consultoria (o "guarda-chuva" de consultorias).',
+    text: 'A maioria das oportunidades internacionais que chegam para brasileiros não vem direto do "cliente final". Elas vêm por hubs de consultoria (o "guarda-chuva" de consultorias).',
     highlight:
-      'Quando você entra nesse guarda-chuva pela primeira oportunidade, sua estabilidade no mercado internacional aumenta muito: ao terminar um contrato, a consultoria geralmente realoca você em outro cliente, mantendo seu fluxo de trabalho ativo.',
+      'Quando você entra nesse guarda-chuva pela primeira oportunidade, sua estabilidade no mercado internacional aumenta muito. Ao terminar um contrato, a consultoria geralmente realoca você em outro cliente, mantendo seu fluxo de trabalho ativo.',
   },
 
   salary: {
@@ -108,7 +108,7 @@ export default {
       ],
     },
     closing:
-      'Um Sênior no Brasil costuma ficar na faixa de R$ 10–12k/mês, enquanto trabalhando pra fora um Sênior pode atingir R$ 38–41k/mês. Sandra, com 12 anos de experiência, já tem o perfil para acessar essa faixa.',
+      'Um Sênior no Brasil costuma ficar na faixa de R$ 10–12k/mês, enquanto trabalhando pra fora um Sênior pode atingir R$ 38–41k/mês. A Sandra, com 12 anos de experiência, já tem o perfil pra acessar essa faixa.',
   },
 
   barriers: {
@@ -132,22 +132,22 @@ export default {
       {
         number: '01',
         label: 'Posicionamento',
-        desc: '1 foco + 1 alternativa. Definir em 1 frase: Senior QA Automation Engineer com background em empresas enterprise e automação cross-platform.',
+        desc: '1 foco + 1 alternativa. Definir quem você é em 1 frase: Senior QA Automation Engineer com background em empresas enterprise e automação multiplataforma.',
       },
       {
         number: '02',
         label: 'LinkedIn/CV',
-        desc: 'Ajustar para narrativa com resultado + escopo + impacto, sem soar "QA genérica". Destacar os 12 anos e as grandes marcas (DELL, ENEL, Samsung, BNB, AMBEV).',
+        desc: 'Montar uma narrativa que mostra resultado, escopo e impacto, sem soar "QA genérica". Colocar em destaque os 12 anos e as grandes marcas (DELL, ENEL, Samsung, BNB, AMBEV).',
       },
       {
         number: '03',
         label: 'Inglês na prática',
-        desc: 'Simulações curtas semanais: daily, alinhamento com dev/PM, defender qualidade, explicar bug, negociar prazo. Scripts + frases de escape. Foco em clareza > fluência.',
+        desc: 'Simulações curtas toda semana: daily, alinhamento com dev/PM, defender qualidade, explicar bug, negociar prazo. Com scripts e frases de escape. O foco é clareza, não fluência perfeita.',
       },
       {
         number: '04',
         label: 'Execução internacional',
-        desc: 'Montar funil (onde aplicar, como se apresentar, responder recruiter, manter consistência). Mock interviews (automação, estratégia, métricas, casos reais) + feedback semanal.',
+        desc: 'Montar sua estratégia de aplicação: onde aplicar, como se apresentar, como responder recruiter e manter consistência. Com mock interviews (automação, estratégia, métricas, casos reais) e feedback semanal.',
       },
     ],
   },
@@ -156,9 +156,9 @@ export default {
     tag: 'Por que essa mentoria?',
     title: 'Por que essa mentoria faz sentido pra você?',
     points: [
-      'Porque ela já tem 12 anos de fundamento, automação avançada e vivência em empresas de grande porte — e precisa de direcionamento prático do que dá retorno no mercado internacional.',
-      'A mentoria ajuda a criar posicionamento, narrativa e presença global — transformando toda essa experiência em oportunidades reais lá fora.',
-      'Sandra já é Senior. O que falta é estratégia para que o mercado internacional enxergue isso.',
+      'Porque ela já tem 12 anos de fundamento, automação avançada e vivência em empresas de grande porte. Só precisa de direcionamento prático do que dá retorno no mercado internacional.',
+      'A mentoria te ajuda a criar posicionamento, narrativa e presença global, transformando toda essa experiência em oportunidades reais lá fora.',
+      'Sandra já é Senior. O que falta é estratégia pra que o mercado internacional enxergue isso.',
     ],
   },
 

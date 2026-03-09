@@ -1,0 +1,45 @@
+---
+description: Tom de voz e estilo de escrita para todos os materiais da mentoria QA Without Borders
+globs: presentations/*/src/i18n/*.js
+alwaysApply: false
+---
+
+# Tom de Voz da Mentoria
+
+Todo texto voltado ao mentorado deve soar como uma conversa entre amigos que trabalham na área, não como material corporativo ou currículo.
+
+## Regras de escrita
+
+- **Nunca usar travessão (—)** como conector de frases. Prefira ponto final, vírgula, "e", "mas", "só que" ou reescreva a frase
+- **Evitar linguagem de currículo**: "experiência consolidada", "forte domínio", "atuação em ambientes ágeis", "estruturação para ATS"
+- **Evitar jargão corporativo em português**: "destravar bottlenecks", "estruturar funil", "narrativa com resultado + escopo + impacto"
+- **Termos técnicos em inglês são ok** quando são do dia a dia de QA (Shift Left, mock interview, daily, nearshore, ATS). Mas a frase ao redor deve ser natural
+- **Escrever como se estivesse explicando pra alguém tomando um café**: direto, claro, sem formalidade excessiva, sem frases longas demais
+- **Usar "você" e "a gente"**, nunca "nós propomos" ou "o programa oferece"
+- **Manter frases curtas**: se a frase tem mais de 2 vírgulas, provavelmente precisa ser quebrada
+
+## Exemplos
+
+```
+# Ruim (robótico)
+"Experiência consolidada em ambientes ágeis (Scrum/Kanban), com forte domínio de ferramentas como Selenium e Appium."
+
+# Bom (humano)
+"Trabalha com Scrum e Kanban no dia a dia, e manja de ferramentas como Selenium e Appium."
+```
+
+```
+# Ruim (travessão como muleta)
+"Ele já tem a base técnica — falta o posicionamento certo para o mercado global."
+
+# Bom (frase natural)
+"Ele já tem a base técnica. O que falta é o posicionamento certo pro mercado global."
+```
+
+```
+# Ruim (corporativo)
+"A mentoria ajuda a converter experiência brasileira em narrativa internacional, estruturar funil de aplicação e destravar as primeiras oportunidades."
+
+# Bom (conversa)
+"A mentoria te ajuda a mostrar pro mercado lá fora o que você já sabe fazer, montar sua estratégia de aplicação e conseguir as primeiras oportunidades."
+```
