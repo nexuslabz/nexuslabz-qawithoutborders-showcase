@@ -341,15 +341,54 @@ export default {
   },
 
   offer: {
-    tag: 'Oferta Especial',
-    title: 'OFERTA ESPECIAL',
-    originalPrice: 'R$ 5.000',
+    tag: 'Escolha seu plano',
+    title: 'Planos de Mentoria',
     subtitle:
-      'Pensando na sua realidade e momento atual, e por você fazer parte da nossa turma VIP de lançamento:',
-    options: [
-      { label: '12x de', value: 'R$ 250', suffix: '/mês' },
-      { label: '18x de', value: 'R$ 175', suffix: '/mês' },
-      { label: 'À vista por', value: 'R$ 2.500', suffix: '' },
+      'Escolha o plano que melhor se encaixa no seu momento e objetivo. Todos os pacotes incluem acompanhamento individual.',
+    packages: [
+      {
+        name: 'Intensivo',
+        duration: '3 meses',
+        tier: 'starter',
+        price: 'R$ 1.500',
+        installment: '12x R$ 149,90',
+        features: [
+          'Encontros 1:1 por 3 meses',
+          'Acesso à comunidade',
+          'Conteúdo na plataforma Kiwify',
+          'Posicionamento profissional',
+        ],
+      },
+      {
+        name: 'Aceleração',
+        duration: '6 meses',
+        tier: 'pro',
+        price: 'R$ 2.500',
+        installment: '12x R$ 249,90',
+        features: [
+          'Tudo do Intensivo +',
+          'Encontros 1:1 por 6 meses',
+          'Simulações de entrevistas',
+          'Currículo + LinkedIn otimizados',
+          'Masterclass + Hotseat',
+        ],
+      },
+      {
+        name: 'Transformação',
+        duration: '12 meses',
+        tier: 'full',
+        price: 'R$ 5.000',
+        installment: '12x R$ 499,90',
+        recommended: true,
+        features: [
+          'Tudo da Aceleração +',
+          'Encontros 1:1 por 12 meses',
+          'Execução guiada completa',
+          'Garantia de acompanhamento',
+          'Plano de manutenção anual',
+          'Networking + visibilidade',
+        ],
+      },
     ],
     note: 'Condição exclusiva para turma VIP de lançamento.',
   },
