@@ -9,6 +9,7 @@ import YearOfQAsSection from './sections/YearOfQAsSection.vue';
 import ShoreModelsSection from './sections/ShoreModelsSection.vue';
 import IntlMarketSection from './sections/IntlMarketSection.vue';
 import SalarySection from './sections/SalarySection.vue';
+import BeyondSalarySection from './sections/BeyondSalarySection.vue';
 import BarriersSection from './sections/BarriersSection.vue';
 import ShiftLeftSection from './sections/ShiftLeftSection.vue';
 import SolutionSection from './sections/SolutionSection.vue';
@@ -36,8 +37,9 @@ const sections = [
   ShoreModelsSection,
   IntlMarketSection,
   SalarySection,
-  BarriersSection,
+  BeyondSalarySection,
   ShiftLeftSection,
+  BarriersSection,
   SolutionSection,
   MutualContractSection,
   WhyMentorshipSection,

@@ -136,6 +136,29 @@ export default {
     ],
   },
 
+  beyondSalary: {
+    tag: 'Remote-first pra gringa',
+    title: 'Além do salário',
+    cards: [
+      {
+        title: 'Rotina que faz sentido',
+        desc: 'No Brasil você acorda às 8h e sai às 18h. Trabalhando pra fora, a maioria começa às 10h e termina às 18h. Sobra tempo pra viver.',
+      },
+      {
+        title: 'Trabalhe de qualquer lugar',
+        desc: 'Você pode morar onde quiser e ganhar em moeda forte (USD/EUR). Sem trânsito, sem escritório obrigatório, sem fronteiras.',
+      },
+      {
+        title: 'Seu trabalho é valorizado',
+        desc: 'Gestores abertos a negociação de salário, feedbacks construtivos e uma cultura de reconhecimento muito diferente do que a gente vê por aqui.',
+      },
+      {
+        title: 'Qualidade de vida real',
+        desc: 'Mais tempo com filhos, família e amigos. Mais equilíbrio entre vida pessoal e trabalho. Seus objetivos pessoais ficam mais perto.',
+      },
+    ],
+  },
+
   shiftLeft: {
     tag: 'O QA que o mercado procura',
     title: 'Shift-Left não é buzzword. É o que separa quem é contratado de quem fica na fila.',
@@ -195,7 +218,7 @@ export default {
   },
 
   pillars: {
-    tag: 'Os 7 Pilares',
+    tag: 'Os 8 Pilares',
     title: 'Os Pilares da Mentoria',
     items: [
       {
@@ -233,6 +256,11 @@ export default {
         title: 'Plataformas + Simulação',
         desc: 'Foco nas plataformas que importam e simulações reais de entrevistas internacionais',
       },
+      {
+        number: '08',
+        title: 'Hard Skills',
+        desc: 'Prática de automação de testes com um fake app, desenvolvido pela Nexus Labz em parceria com a QA Without Borders Mentory',
+      },
     ],
   },
 
@@ -258,12 +286,16 @@ export default {
         desc: 'Todos os encontros dessa turma especial são individuais. Acompanhamento direto com o mentor, focado na sua evolução',
       },
       {
-        title: 'Masterclass + Hotseat',
-        desc: 'Sessões quinzenais ao vivo com convidados e resolução de casos reais',
+        title: 'Masterclass',
+        desc: 'Sessões ao vivo com convidados e resolução de casos reais',
       },
       {
         title: 'Comunidade',
         desc: 'Rede de profissionais com o mesmo objetivo, trocando práticas e oportunidades',
+      },
+      {
+        title: 'Grupo VIP de Mentorados',
+        desc: 'Acesso exclusivo ao grupo de mentorados com troca de experiências, oportunidades e suporte entre pares',
       },
       {
         title: 'Kiwify com videoaulas',
@@ -333,7 +365,7 @@ export default {
       'Método completo de internacionalização',
       'Execução guiada passo a passo',
       'Simulações reais de entrevistas',
-      'Masterclass + Hotseat + Comunidade',
+      'Masterclass + Comunidade',
       'Videoaulas na plataforma Kiwify',
     ],
     price: 'R$ 5.000',
@@ -342,25 +374,25 @@ export default {
 
   offer: {
     tag: 'Escolha seu plano',
+    vipLabel: 'Oferta exclusiva — Turma VIP de lançamento',
     title: 'Planos de Mentoria',
     subtitle:
       'Escolha o plano que melhor se encaixa no seu momento e objetivo. Todos os pacotes incluem acompanhamento individual.',
     packages: [
       {
-        name: 'Intensivo',
+        name: 'QAWB Intensive',
         duration: '3 meses',
         tier: 'starter',
         price: 'R$ 1.500',
         installment: '12x R$ 149,90',
         features: [
           'Encontros 1:1 por 3 meses',
-          'Acesso à comunidade',
-          'Conteúdo na plataforma Kiwify',
-          'Posicionamento profissional',
+          'Acesso à comunidade Nexus Labz',
+          'Módulos CORE',
         ],
       },
       {
-        name: 'Aceleração',
+        name: 'QAWB Essential',
         duration: '6 meses',
         tier: 'pro',
         price: 'R$ 2.500',
@@ -368,25 +400,27 @@ export default {
         features: [
           'Tudo do Intensivo +',
           'Encontros 1:1 por 6 meses',
-          'Simulações de entrevistas',
-          'Currículo + LinkedIn otimizados',
-          'Masterclass + Hotseat',
+          'Conteúdo na plataforma Kiwify',
+          'Módulo de Hard Skills',
+          'Projeto de portfólio',
+          'Acesso ao grupo VIP de mentorados',
+          'Garantia de acompanhamento',
+          'Acesso às Masterclass',
         ],
       },
       {
-        name: 'Transformação',
+        name: 'QAWB All-In',
         duration: '12 meses',
         tier: 'full',
         price: 'R$ 5.000',
         installment: '12x R$ 499,90',
         recommended: true,
         features: [
-          'Tudo da Aceleração +',
+          'Tudo do Essencial +',
           'Encontros 1:1 por 12 meses',
-          'Execução guiada completa',
-          'Garantia de acompanhamento',
-          'Plano de manutenção anual',
-          'Networking + visibilidade',
+          'Execução guiada passo a passo',
+          'Simulações reais de entrevistas baseada em JD',
+          'Lista dos melhores recrutadores para networking',
         ],
       },
     ],

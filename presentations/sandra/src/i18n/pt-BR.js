@@ -125,6 +125,29 @@ export default {
     ],
   },
 
+  beyondSalary: {
+    tag: 'Remote-first pra gringa',
+    title: 'Além do salário',
+    cards: [
+      {
+        title: 'Rotina que faz sentido',
+        desc: 'No Brasil você acorda às 8h e sai às 18h. Trabalhando pra fora, a maioria começa às 10h e termina às 18h. Sobra tempo pra viver.',
+      },
+      {
+        title: 'Trabalhe de qualquer lugar',
+        desc: 'Você pode morar onde quiser e ganhar em moeda forte (USD/EUR). Sem trânsito, sem escritório obrigatório, sem fronteiras.',
+      },
+      {
+        title: 'Seu trabalho é valorizado',
+        desc: 'Gestores abertos a negociação de salário, feedbacks construtivos e uma cultura de reconhecimento muito diferente do que a gente vê por aqui.',
+      },
+      {
+        title: 'Qualidade de vida real',
+        desc: 'Mais tempo com filhos, família e amigos. Mais equilíbrio entre vida pessoal e trabalho. Seus objetivos pessoais ficam mais perto.',
+      },
+    ],
+  },
+
   shiftLeft: {
     tag: 'O QA que o mercado procura',
     title: 'Shift-Left não é buzzword. É o que separa quem é contratado de quem fica na fila.',

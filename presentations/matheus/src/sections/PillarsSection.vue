@@ -4,7 +4,7 @@ import { inject } from 'vue';
 defineProps({ active: Boolean });
 const t = inject('t');
 
-const COLORS = ['cyan', 'purple', 'cyan', 'purple', 'cyan', 'purple', 'cyan'];
+const COLORS = ['cyan', 'purple', 'cyan', 'purple', 'cyan', 'purple', 'cyan', 'purple'];
 </script>
 
 <template>
@@ -91,15 +91,15 @@ const COLORS = ['cyan', 'purple', 'cyan', 'purple', 'cyan', 'purple', 'cyan'];
 .pillars__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0.7rem;
+  gap: 0.55rem;
   width: 100%;
 }
 
 .pillars__card {
   display: flex;
   align-items: flex-start;
-  gap: 0.9rem;
-  padding: 0.9rem 1.1rem;
+  gap: 0.75rem;
+  padding: 0.7rem 1rem;
   border-radius: var(--radius-md);
   border-left: 3px solid transparent;
 }
@@ -108,7 +108,7 @@ const COLORS = ['cyan', 'purple', 'cyan', 'purple', 'cyan', 'purple', 'cyan'];
 .pillars__card--purple { border-left-color: var(--neon-purple); }
 
 .pillars__number {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 800;
   color: var(--cyan);
   flex-shrink: 0;
@@ -122,18 +122,18 @@ const COLORS = ['cyan', 'purple', 'cyan', 'purple', 'cyan', 'purple', 'cyan'];
 .pillars__text {
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
+  gap: 0.1rem;
 }
 
 .pillars__card-title {
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   font-weight: 700;
   color: var(--pure-white);
 }
 
 .pillars__card-desc {
-  font-size: 0.78rem;
-  line-height: 1.5;
+  font-size: 0.72rem;
+  line-height: 1.45;
   color: var(--white-50);
 }
 

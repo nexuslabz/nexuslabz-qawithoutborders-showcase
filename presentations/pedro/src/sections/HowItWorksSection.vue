@@ -4,7 +4,7 @@ import { inject } from 'vue';
 defineProps({ active: Boolean });
 const t = inject('t');
 
-const ICONS = ['📅', '🎓', '👥', '🎥', '🚀'];
+const ICONS = ['📅', '🎓', '👥', '⭐', '🎥', '🚀'];
 </script>
 
 <template>
