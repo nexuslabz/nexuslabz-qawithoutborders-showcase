@@ -10,7 +10,9 @@ import ShoreModelsSection from './sections/ShoreModelsSection.vue';
 import IntlMarketSection from './sections/IntlMarketSection.vue';
 import SalarySection from './sections/SalarySection.vue';
 import BarriersSection from './sections/BarriersSection.vue';
+import ShiftLeftSection from './sections/ShiftLeftSection.vue';
 import SolutionSection from './sections/SolutionSection.vue';
+import MutualContractSection from './sections/MutualContractSection.vue';
 import WhyMentorshipSection from './sections/WhyMentorshipSection.vue';
 import ClosingSection from './sections/ClosingSection.vue';
 
@@ -35,7 +37,9 @@ const sections = [
   IntlMarketSection,
   SalarySection,
   BarriersSection,
+  ShiftLeftSection,
   SolutionSection,
+  MutualContractSection,
   WhyMentorshipSection,
   ClosingSection,
 ];

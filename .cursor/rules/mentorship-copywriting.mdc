@@ -1,7 +1,7 @@
 ---
 description: Tom de voz e estilo de escrita para todos os materiais da mentoria QA Without Borders
 globs: presentations/*/src/i18n/*.js
-alwaysApply: false
+alwaysApply: true
 ---
 
 # Tom de Voz da Mentoria

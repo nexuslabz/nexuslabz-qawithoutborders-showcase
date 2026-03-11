@@ -125,6 +125,37 @@ export default {
     ],
   },
 
+  shiftLeft: {
+    tag: 'O QA que o mercado procura',
+    title: 'Shift-Left não é buzzword. É o que separa quem é contratado de quem fica na fila.',
+    intro:
+      'Empresas internacionais não querem um QA que espera o dev terminar pra "testar no final". Elas querem alguém que participa desde o início, que questiona requisitos, que pensa em qualidade antes da primeira linha de código.',
+    points: [
+      {
+        icon: '🔍',
+        title: 'QA desde o design',
+        desc: 'Lá fora, o QA participa de refinamentos, reviews de requisitos e planning. Quem só testa no final está ficando pra trás.',
+      },
+      {
+        icon: '⚙️',
+        title: 'Automação como parte da engenharia',
+        desc: 'Testes automatizados rodam na pipeline, não depois dela. O QA que entende CI/CD e shift-left se encaixa no fluxo do time de engineering.',
+      },
+      {
+        icon: '🌍',
+        title: 'Diferencial pra vagas internacionais',
+        desc: 'A maioria dos QAs brasileiros tem experiência operacional. Quem demonstra mentalidade shift-left sai na frente em processos seletivos internacionais.',
+      },
+      {
+        icon: '🧠',
+        title: 'Mentalidade de engineer',
+        desc: 'O mercado global quer QA Engineers, não testadores. A diferença está em pensar qualidade como parte do produto, não como etapa separada.',
+      },
+    ],
+    closing:
+      'Na mentoria, a gente te ajuda a desenvolver e demonstrar essa mentalidade. Porque saber testar é o básico. O que te destaca é saber onde e quando atuar.',
+  },
+
   solution: {
     tag: 'A Solução',
     title: 'Como podemos solucionar esse problema?',
@@ -197,6 +228,35 @@ export default {
     text: 'Se em 3 meses você não tiver resultado claro, como entrevistas ou oportunidades internacionais, a gente não te abandona. Pelo contrário:',
     objective: 'A gente aumenta a frequência dos encontros 1:1 e entra num acompanhamento mais próximo, direto com o mentor, pra identificar e resolver o que está travando a sua primeira oportunidade.',
     detail: 'O mentor entra junto com você na execução. Ajustes no posicionamento, currículo, LinkedIn, estratégia de aplicação e performance em entrevista. Tudo lado a lado até o resultado aparecer.',
+  },
+
+  mutualContract: {
+    tag: 'Compromisso Mútuo',
+    title: 'Contrato de Responsabilidade Mútua',
+    intro:
+      'Pra essa mentoria funcionar de verdade, os dois lados precisam se comprometer. Por isso a gente trabalha com um contrato de responsabilidade mútua que garante segurança e clareza pra todo mundo.',
+    mentee: {
+      title: 'Seu compromisso',
+      items: [
+        'Comparecer aos encontros 1:1 no horário combinado',
+        'Executar as tarefas e entregas entre os encontros',
+        'Manter comunicação ativa e transparente sobre dificuldades',
+        'Dedicar o tempo necessário fora dos encontros pra evoluir',
+        'Respeitar prazos e cronograma acordados',
+      ],
+    },
+    mentor: {
+      title: 'Nosso compromisso',
+      items: [
+        'Entregar direcionamento personalizado pro seu momento',
+        'Disponibilidade pra tirar dúvidas entre os encontros',
+        'Feedback honesto e direto sobre seu progresso',
+        'Ajustar o plano conforme sua evolução e necessidades',
+        'Sigilo total sobre suas informações pessoais e profissionais',
+      ],
+    },
+    closing:
+      'Esse contrato existe pra proteger os dois lados. Se cada um faz sua parte, o resultado aparece. E se algo não estiver funcionando, a gente conversa e ajusta juntos.',
   },
 
   whyMentorship: {

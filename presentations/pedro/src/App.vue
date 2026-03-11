@@ -10,11 +10,13 @@ import ShoreModelsSection from './sections/ShoreModelsSection.vue';
 import IntlMarketSection from './sections/IntlMarketSection.vue';
 import SalarySection from './sections/SalarySection.vue';
 import BarriersSection from './sections/BarriersSection.vue';
+import ShiftLeftSection from './sections/ShiftLeftSection.vue';
 import SolutionSection from './sections/SolutionSection.vue';
 import PillarsSection from './sections/PillarsSection.vue';
 import DeliverablesSection from './sections/DeliverablesSection.vue';
 import HowItWorksSection from './sections/HowItWorksSection.vue';
 import GuaranteeSection from './sections/GuaranteeSection.vue';
+import MutualContractSection from './sections/MutualContractSection.vue';
 import WhyMentorshipSection from './sections/WhyMentorshipSection.vue';
 import PricingSection from './sections/PricingSection.vue';
 import OfferSection from './sections/OfferSection.vue';
@@ -41,11 +43,13 @@ const sections = [
   IntlMarketSection,
   SalarySection,
   BarriersSection,
+  ShiftLeftSection,
   SolutionSection,
   PillarsSection,
   DeliverablesSection,
   HowItWorksSection,
   GuaranteeSection,
+  MutualContractSection,
   WhyMentorshipSection,
   PricingSection,
   OfferSection,
