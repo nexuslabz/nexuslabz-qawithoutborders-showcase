@@ -1,0 +1,300 @@
+export default {
+  cover: {
+    welcome: 'Bem-vindo ao seu atalho da primeira vaga internacional!',
+    hint: 'Deslize ou use as setas para navegar →',
+  },
+
+  mentors: {
+    tag: 'Quem está por trás da mentoria?',
+    caio: {
+      name: 'Caio Moloni',
+      title: 'Fundador',
+      role: 'Senior QA',
+      company: '@People Inc',
+      experience: '+8 anos de carreira',
+      intl: '+3 anos de exp internacional',
+      flags: ['us'],
+    },
+    mentor2: {
+      name: 'Rennan Gimenez',
+      title: 'Co-Fundador',
+      role: 'Senior SDET',
+      company: '@Howdy & @Babel',
+      experience: '+8 anos de carreira',
+      intl: '+2 anos de exp internacional',
+      flags: ['us', 'pt'],
+    },
+  },
+
+  profile: {
+    tag: 'Quem é',
+    name: 'Matheus Goedert',
+    nameFull: 'Matheus Goedert',
+    role: 'Analista de QA | CTFL',
+    description:
+      'O Matheus fez uma transição de carreira muito bem construída. Depois de 10 anos na CELESC, onde chegou a coordenar equipes de atendimento e participar de projetos de transformação digital, decidiu migrar pra qualidade de software. Hoje tem certificação CTFL, trabalha com testes manuais e automatizados, automação com Playwright e Cypress, e atua em ambientes ágeis com Scrum e Kanban.',
+    highlights: [
+      { label: 'Experiência', value: '~2 anos em QA + 10 anos corporativo' },
+      { label: 'Formação', value: 'ADS + Pós em Eng. de Software' },
+      { label: 'Inglês', value: 'Intermediário B2' },
+    ],
+    companies: 'Fundação CERTI, Paradigma Business Solutions, CELESC',
+    skills:
+      'Playwright, Cypress, Robot Framework, JavaScript, Python, SQL Server, BDD/Gherkin, APIs REST/SOAP, Jira, Azure DevOps, Scrum, Kanban, Postman',
+    current:
+      'Hoje está na Fundação CERTI como Analista de QA, atuando com testes funcionais, automação e qualidade em ambiente ágil.',
+  },
+
+  whyHere: {
+    tag: 'Por que o Matheus está aqui hoje?',
+    headline: 'Para transformar uma transição de carreira bem-feita',
+    headlineBold: 'em posicionamento internacional de verdade.',
+    points: [
+      'O Matheus já fez o mais difícil: saiu de uma carreira de 10 anos e se reinventou em QA com certificação, automação e vivência real em projetos. Agora precisa do direcionamento certo pra levar isso pro mercado global.',
+      'A mentoria te ajuda a mostrar pro mercado lá fora o que você já sabe fazer, montar sua estratégia de aplicação e conseguir as primeiras oportunidades.',
+      'O diferencial do Matheus é raro: ele une visão de negócio, liderança e comunicação (10 anos de CELESC) com habilidade técnica em QA. Isso tem muito valor lá fora.',
+    ],
+    closing:
+      'Quem já teve coragem de mudar de carreira e se preparou pra isso, só precisa do caminho certo. E o Matheus está pronto pra dar esse próximo passo.',
+  },
+
+  yearOfQAs: {
+    tag: '2026',
+    title: 'Porque esse ano vai ser o ano dos QAs?',
+  },
+
+  shoreModels: {
+    tag: 'Modelos de contratação',
+    title: 'Onshore / Nearshore / Offshore',
+    models: [
+      {
+        name: 'Onshore',
+        desc: 'Você presta serviço para uma empresa do mesmo país do cliente, geralmente no mesmo fuso e idioma, com mais facilidade logística.',
+      },
+      {
+        name: 'Nearshore',
+        desc: 'Você presta serviço de um país próximo ao do cliente, com fuso parecido e boa sobreposição de horário.',
+      },
+      {
+        name: 'Offshore',
+        desc: 'Você presta serviço de um país distante do cliente, com menos overlap de horário e mais trabalho assíncrono.',
+      },
+    ],
+  },
+
+  intlMarket: {
+    tag: 'Mercado Internacional',
+    title: 'Como funciona o mercado internacional',
+    text: 'A maioria das oportunidades internacionais que chegam para brasileiros não vem direto do "cliente final". Elas vêm por hubs de consultoria (o "guarda-chuva" de consultorias).',
+    highlight:
+      'Quando você entra nesse guarda-chuva pela primeira oportunidade, sua estabilidade no mercado internacional aumenta muito. Ao terminar um contrato, a consultoria geralmente realoca você em outro cliente, mantendo seu fluxo de trabalho ativo.',
+  },
+
+  salary: {
+    tag: 'Comparativo Salarial',
+    title: 'Comparativo salarial USD × R$',
+    nearshore: {
+      label: 'Nearshore para Brasil/LATAM',
+      items: [
+        { level: 'Junior', usd: '~US$ 2.0k/mês', brl: '≈ R$ 10.2k/mês' },
+        { level: 'Pleno', usd: '~US$ 3–6k/mês', brl: '≈ R$ 15–30k/mês' },
+        { level: 'Sênior', usd: '~US$ 7.5–8k/mês', brl: '≈ R$ 38–41k/mês' },
+      ],
+    },
+    brazil: {
+      label: 'Mercado local Brasil',
+      items: [
+        { level: 'Junior', range: 'R$ 2.5k–3k/mês' },
+        { level: 'Pleno', range: 'R$ 6k–8k/mês' },
+        { level: 'Sênior', range: 'R$ 10k–12k/mês' },
+      ],
+    },
+    closing:
+      'Um QA Pleno trabalhando pra fora pode ganhar o equivalente a um Sênior ou mais aqui no Brasil. O Matheus, com CTFL, automação e um background corporativo forte, já tem o perfil pra acessar essa faixa com o posicionamento certo.',
+  },
+
+  barriers: {
+    tag: 'Barreiras',
+    title: 'Por que brasileiros não conseguem oportunidades internacionais?',
+    items: [
+      {
+        text: 'Acham que precisa de inglês fluente e nem aplicam.',
+        bold: 'inglês fluente',
+      },
+      {
+        text: 'Confundem fluência com comunicação clara.',
+        bold: 'comunicação clara',
+      },
+      {
+        text: 'Pensam que EUA é só tech de ponta (muito é legado).',
+        bold: 'tech de ponta',
+      },
+      {
+        text: 'Subestimam a graduação brasileira (lá fora conta e é diferencial).',
+        bold: 'graduação brasileira',
+      },
+    ],
+  },
+
+  solution: {
+    tag: 'A Solução',
+    title: 'Como podemos solucionar esse problema?',
+    steps: [
+      {
+        number: '01',
+        label: 'Posicionamento',
+        desc: '1 foco + 1 alternativa. Definir quem você é em 1 frase: QA Analyst com CTFL, automação (Playwright/Cypress), vivência em shift-left e um diferencial raro de 10 anos de experiência corporativa com liderança e visão de negócio.',
+      },
+      {
+        number: '02',
+        label: 'LinkedIn/CV',
+        desc: 'Montar uma narrativa que mostra resultado, escopo e impacto. Colocar em destaque a certificação CTFL, a automação com Playwright, o background corporativo na CELESC e a pós em Engenharia de Software.',
+      },
+      {
+        number: '03',
+        label: 'Inglês na prática',
+        desc: 'Simulações curtas toda semana: daily, alinhamento com dev/PM, defender qualidade, explicar bug, negociar prazo. Com scripts e frases de escape. O foco é clareza, não fluência perfeita.',
+      },
+      {
+        number: '04',
+        label: 'Execução internacional',
+        desc: 'Montar sua estratégia de aplicação: onde aplicar, como se apresentar, como responder recruiter e manter consistência. Com mock interviews e feedback semanal até você aplicar sem medo.',
+      },
+    ],
+  },
+
+  pillars: {
+    tag: 'Os 7 Pilares',
+    title: 'Os Pilares da Mentoria',
+    items: [
+      {
+        number: '01',
+        title: 'Posicionamento Profissional',
+        desc: 'Sair do modo "executor invisível" e virar referência técnica no mercado global',
+      },
+      {
+        number: '02',
+        title: 'Currículo Internacional',
+        desc: 'Montar um currículo que passa nos filtros de ATS e chama atenção de recrutadores lá fora',
+      },
+      {
+        number: '03',
+        title: 'LinkedIn Como Ativo',
+        desc: 'Transformar seu LinkedIn numa vitrine que atrai oportunidades internacionais',
+      },
+      {
+        number: '04',
+        title: 'Soft Skills Estratégicas',
+        desc: 'Comunicação técnica em inglês, ownership e mentalidade de engineer',
+      },
+      {
+        number: '05',
+        title: 'Gestão de Carreira',
+        desc: 'Planejamento de longo prazo pra crescer no mercado internacional',
+      },
+      {
+        number: '06',
+        title: 'Networking e Visibilidade',
+        desc: 'Marcar presença nas plataformas certas pra ser encontrado por recrutadores',
+      },
+      {
+        number: '07',
+        title: 'Plataformas + Simulação',
+        desc: 'Foco nas plataformas que importam e simulações reais de entrevistas internacionais',
+      },
+    ],
+  },
+
+  deliverables: {
+    tag: 'Entregáveis',
+    title: 'O Que Você Leva',
+    items: [
+      'Posicionamento claro como QA Engineer pro mercado internacional',
+      'Currículo montado pra passar nos filtros de ATS e chamar atenção de recrutadores globais',
+      'LinkedIn otimizado, funcionando como vitrine e prova pública do seu nível',
+      'Perfis ativos nas plataformas globais, tudo alinhado com o mesmo posicionamento',
+      'Simulações reais de entrevistas internacionais com plano de melhoria',
+      'Plano de manutenção e evolução pra manter a consistência ao longo do ano',
+    ],
+  },
+
+  howItWorks: {
+    tag: 'Funcionamento',
+    title: 'Como Funciona',
+    items: [
+      {
+        title: 'Encontros 1:1 por 12 meses',
+        desc: 'Todos os encontros dessa turma especial são individuais. Acompanhamento direto com o mentor, focado na sua evolução',
+      },
+      {
+        title: 'Masterclass + Hotseat',
+        desc: 'Sessões quinzenais ao vivo com convidados e resolução de casos reais',
+      },
+      {
+        title: 'Comunidade',
+        desc: 'Rede de profissionais com o mesmo objetivo, trocando práticas e oportunidades',
+      },
+      {
+        title: 'Kiwify com videoaulas',
+        desc: 'Conteúdo gravado sobre qualidade, posicionamento e carreira internacional',
+      },
+      {
+        title: 'Execução guiada',
+        desc: 'Ritmo e direção pra você avançar sem ficar travado em nenhuma etapa',
+      },
+    ],
+  },
+
+  guarantee: {
+    tag: 'Garantia',
+    title: 'Garantia de Acompanhamento',
+    text: 'Se em 3 meses você não tiver resultado claro, como entrevistas ou oportunidades internacionais, a gente não te abandona. Pelo contrário:',
+    objective:
+      'A gente aumenta a frequência dos encontros 1:1 e entra num acompanhamento mais próximo, direto com o mentor, pra identificar e resolver o que está travando a sua primeira oportunidade.',
+    detail:
+      'O mentor entra junto com você na execução. Ajustes no posicionamento, currículo, LinkedIn, estratégia de aplicação e performance em entrevista. Tudo lado a lado até o resultado aparecer.',
+  },
+
+  whyMentorship: {
+    tag: 'Por que essa mentoria?',
+    title: 'Por que essa mentoria faz sentido pra você?',
+    points: [
+      'Porque o Matheus já fez a parte mais difícil: a transição de carreira. Hoje tem CTFL, automação com Playwright/Cypress e vivência real em projetos. Só falta o posicionamento certo pro mercado internacional.',
+      'A mentoria te ajuda a transformar essa combinação única (10 anos de vivência corporativa + QA técnico) em presença global, montar sua estratégia de aplicação e se preparar pra entrevistas internacionais com confiança.',
+      'Com certificação, automação, inglês intermediário e um perfil que une técnica com visão de negócio, a primeira oportunidade internacional é questão de estratégia. E a mentoria entrega exatamente isso.',
+    ],
+  },
+
+  pricing: {
+    tag: 'Acesso',
+    title: 'Acesso ao Método Completo',
+    items: [
+      'Encontros 1:1 individuais por 12 meses',
+      'Método completo de internacionalização',
+      'Execução guiada passo a passo',
+      'Simulações reais de entrevistas',
+      'Masterclass + Hotseat + Comunidade',
+      'Videoaulas na plataforma Kiwify',
+    ],
+    price: 'R$ 5.000',
+    priceNote: 'Valor integral do programa',
+  },
+
+  offer: {
+    tag: 'Oferta Especial',
+    title: 'OFERTA ESPECIAL',
+    originalPrice: 'R$ 5.000',
+    subtitle:
+      'Pensando na sua realidade e momento atual, e por você fazer parte da nossa turma VIP de lançamento:',
+    options: [
+      { label: '12x de', value: 'R$ 250', suffix: '/mês' },
+      { label: '18x de', value: 'R$ 175', suffix: '/mês' },
+      { label: 'À vista por', value: 'R$ 2.500', suffix: '' },
+    ],
+    note: 'Condição exclusiva para turma VIP de lançamento.',
+  },
+
+  closing: {
+    text: 'Queremos ouvir de você Matheus, o que achou?',
+  },
+};
