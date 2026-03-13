@@ -24,6 +24,7 @@ import Pillar7Section from './sections/Pillar7Section.vue';
 import Pillar8Section from './sections/Pillar8Section.vue';
 import GuaranteeSection from './sections/GuaranteeSection.vue';
 import MutualContractSection from './sections/MutualContractSection.vue';
+import CtaSection from './sections/CtaSection.vue';
 
 const i18n = createI18n({ en, 'pt-BR': ptBR });
 provide('i18n', i18n);
@@ -49,6 +50,7 @@ const sections = [
   Pillar8Section,
   GuaranteeSection,
   MutualContractSection,
+  CtaSection,
 ];
 
 const container = ref(null);

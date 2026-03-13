@@ -234,7 +234,7 @@ export default {
     title: 'Hard Skills',
     items: [
       'Test automation practice with a fake app, developed by Nexus Labz in partnership with QA Without Borders Mentory',
-      'Hands-on experience with Whynkle\'s Barbershop (Web & Mobile)',
+      'Hands-on experience with Web and Mobile applications in real testing scenarios',
       'Real application of automation tools and frameworks in market-like scenarios',
     ],
   },
@@ -266,6 +266,15 @@ export default {
     },
     closing:
       'This contract exists to protect both sides. If everyone does their part, results come. And if something is not working, we talk and adjust together.',
+  },
+
+  cta: {
+    tag: 'Next step',
+    headline: 'Want to know how this applies',
+    headlineBold: 'to your current moment?',
+    text: 'Schedule a free diagnostic call with us. In 30 minutes we understand where you are, where you want to go, and whether the mentorship makes sense for your moment.',
+    button: 'Schedule my diagnostic call',
+    note: 'No strings attached. Just an honest conversation about your next step.',
   },
 
   guarantee: {
