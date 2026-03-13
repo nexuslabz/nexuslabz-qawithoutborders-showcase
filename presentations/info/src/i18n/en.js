@@ -273,7 +273,7 @@ export default {
     headline: 'Want to know how this applies',
     headlineBold: 'to your current moment?',
     text: 'Schedule a free diagnostic call with us. We understand where you are, where you want to go, and whether the mentorship makes sense for your moment.',
-    button: 'Schedule my diagnostic call',
+    button: 'Schedule diagnostic call',
     note: 'No strings attached. Just an honest conversation about your next step.',
   },
 
