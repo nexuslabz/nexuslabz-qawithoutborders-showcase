@@ -10,17 +10,13 @@ import RealitySection from './sections/RealitySection.vue';
 import MistakeSection from './sections/MistakeSection.vue';
 import MarketSection from './sections/MarketSection.vue';
 import TurningPointSection from './sections/TurningPointSection.vue';
+import BeyondSalarySection from './sections/BeyondSalarySection.vue';
 import MethodSection from './sections/MethodSection.vue';
+import PillarsSection from './sections/PillarsSection.vue';
 import DeliverablesSection from './sections/DeliverablesSection.vue';
 import HowItWorksSection from './sections/HowItWorksSection.vue';
-import Pillar1Section from './sections/Pillar1Section.vue';
-import Pillar2Section from './sections/Pillar2Section.vue';
-import Pillar3Section from './sections/Pillar3Section.vue';
-import Pillar4Section from './sections/Pillar4Section.vue';
-import Pillar5Section from './sections/Pillar5Section.vue';
-import Pillar6Section from './sections/Pillar6Section.vue';
-import Pillar7Section from './sections/Pillar7Section.vue';
 import GuaranteeSection from './sections/GuaranteeSection.vue';
+import MutualContractSection from './sections/MutualContractSection.vue';
 
 const i18n = createI18n({ en, 'pt-BR': ptBR });
 provide('i18n', i18n);
@@ -32,17 +28,13 @@ const sections = [
   MistakeSection,
   MarketSection,
   TurningPointSection,
+  BeyondSalarySection,
   MethodSection,
+  PillarsSection,
   DeliverablesSection,
   HowItWorksSection,
-  Pillar1Section,
-  Pillar2Section,
-  Pillar3Section,
-  Pillar4Section,
-  Pillar5Section,
-  Pillar6Section,
-  Pillar7Section,
   GuaranteeSection,
+  MutualContractSection,
 ];
 
 const container = ref(null);

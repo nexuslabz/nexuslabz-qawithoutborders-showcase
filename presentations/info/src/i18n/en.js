@@ -126,89 +126,122 @@ export default {
     tag: 'How It Works',
     title: 'How It Works',
     items: [
-      { title: '12-Month Mentorship', desc: 'Continuous and personalized guidance, with phase-based progression' },
-      { title: 'Masterclass + Hotseat', desc: 'Biweekly live sessions with guests and real case resolution' },
+      { title: '1:1 Sessions for 12 months', desc: 'All sessions in this special cohort are individual. Direct guidance from the mentor, focused on your growth' },
+      { title: 'Masterclass', desc: 'Live sessions with guests and real case resolution' },
       { title: 'Community', desc: 'Network of professionals with the same goal, sharing practices and opportunities' },
+      { title: 'VIP Mentee Group', desc: 'Exclusive access to the mentee group for experience sharing, opportunities and peer support' },
       { title: 'Kiwify Video Lessons', desc: 'Recorded content on quality, positioning, and international careers' },
       { title: 'Guided Execution', desc: 'Pace and direction so you keep moving forward without getting stuck at any stage' },
     ],
   },
 
-  pillar1: {
-    tag: 'Pillar 1',
-    title: 'Professional Positioning',
-    items: [
-      'Transition from a generic profile to a clear narrative aligned with the global market',
-      'Define your target, specialization, and product context to be understood in seconds',
-      'Build a personal brand focused on seniority, impact, and consistency',
+
+  beyondSalary: {
+    tag: 'Remote-first for international work',
+    title: 'Beyond the salary',
+    cards: [
+      {
+        title: 'A routine that makes sense',
+        desc: 'In Brazil you wake up at 8am and leave at 6pm. Working abroad, most start at 10am and finish at 6pm. More time to live.',
+      },
+      {
+        title: 'Work from anywhere',
+        desc: 'Live wherever you want and earn in strong currency (USD/EUR). No commute, no mandatory office, no borders.',
+      },
+      {
+        title: 'Your work is valued',
+        desc: 'Managers open to salary negotiation, constructive feedback, and a culture of recognition very different from what we see here.',
+      },
+      {
+        title: 'Real quality of life',
+        desc: 'More time with kids, family and friends. Better work-life balance. Your personal goals become closer.',
+      },
     ],
   },
 
-  pillar2: {
-    tag: 'Pillar 2',
-    title: 'International Resume',
+  pillars: {
+    tag: 'The 8 Pillars',
+    title: 'The Mentorship Pillars',
     items: [
-      'Objective, scannable structure compatible with ATS',
-      'Experiences described with context, action, and result — avoiding tool lists',
-      'Per-role adjustments to maximize response rate and interviews',
+      {
+        number: '01',
+        title: 'Professional Positioning',
+        desc: 'Move from "invisible executor" to a technical reference in the global market',
+      },
+      {
+        number: '02',
+        title: 'International Resume',
+        desc: 'Build a resume that passes ATS filters and catches the eye of international recruiters',
+      },
+      {
+        number: '03',
+        title: 'LinkedIn as an Asset',
+        desc: 'Turn your LinkedIn into a showcase that attracts international opportunities',
+      },
+      {
+        number: '04',
+        title: 'Strategic Soft Skills',
+        desc: 'Technical communication in English, ownership and engineer mindset',
+      },
+      {
+        number: '05',
+        title: 'Career Management',
+        desc: 'Long-term planning to grow in the international market',
+      },
+      {
+        number: '06',
+        title: 'Networking & Visibility',
+        desc: 'Be present on the right platforms to be found by recruiters',
+      },
+      {
+        number: '07',
+        title: 'Platforms + Simulation',
+        desc: 'Focus on the platforms that matter and real international interview simulations',
+      },
+      {
+        number: '08',
+        title: 'Hard Skills',
+        desc: 'Test automation practice with a fake app, developed by Nexus Labz in partnership with QA Without Borders Mentory',
+      },
     ],
   },
 
-  pillar3: {
-    tag: 'Pillar 3',
-    title: 'LinkedIn as an Asset',
-    items: [
-      'Headline, About, and Experience sections aligned with your target role and global keywords',
-      'Profile designed to confirm seniority and specialization in seconds',
-      'Content and presence strategy to reinforce authority consistently',
-    ],
-  },
-
-  pillar4: {
-    tag: 'Pillar 4',
-    title: 'Strategic Soft Skills',
-    items: [
-      'Technical communication in English with clarity, directness, and confidence',
-      'Ownership and professional presence in high-performance international environments',
-      'Practical frameworks for alignment, risk reporting, and decision-making',
-    ],
-  },
-
-  pillar5: {
-    tag: 'Pillar 5',
-    title: 'Career Management',
-    items: [
-      'Planning to grow in the international market with a long-term vision',
-      'Strategies for increasing value, stability, and seniority progression',
-      'How to stay relevant and in demand across different market cycles',
-    ],
-  },
-
-  pillar6: {
-    tag: 'Pillar 6',
-    title: 'Networking & International Visibility',
-    items: [
-      'Building presence on global platforms and channels where recruiters search',
-      'Connection, reputation, and public proof strategies beyond LinkedIn alone',
-      'Maintenance routine to stay visible with consistency',
-    ],
-  },
-
-  pillar7: {
-    tag: 'Pillar 7',
-    title: 'Platform Funneling + Interview Simulation',
-    items: [
-      'Strategic focus on the right platforms with predictable execution cadence',
-      'Application funnel with metrics to quickly adjust what underperforms',
-      'Real international interview simulations with targeted feedback',
-    ],
+  mutualContract: {
+    tag: 'Mutual Commitment',
+    title: 'Mutual Responsibility Contract',
+    intro:
+      'For this mentorship to truly work, both sides need to commit. That is why we work with a mutual responsibility contract that ensures security and clarity for everyone.',
+    mentee: {
+      title: 'Your commitment',
+      items: [
+        'Attend 1:1 sessions at the scheduled time',
+        'Complete tasks and deliverables between sessions',
+        'Maintain active and transparent communication about difficulties',
+        'Dedicate the necessary time outside sessions to evolve',
+        'Respect agreed deadlines and schedule',
+      ],
+    },
+    mentor: {
+      title: 'Our commitment',
+      items: [
+        'Deliver personalized guidance for your current moment',
+        'Availability to answer questions between sessions',
+        'Honest and direct feedback on your progress',
+        'Adjust the plan according to your evolution and needs',
+        'Full confidentiality of your personal and professional information',
+      ],
+    },
+    closing:
+      'This contract exists to protect both sides. If everyone does their part, results come. And if something is not working, we talk and adjust together.',
   },
 
   guarantee: {
     tag: 'Guarantee',
     title: 'Follow-Up Guarantee',
-    text: "If after 3 months the mentee hasn't achieved clear results — such as interviews or international opportunities — they enter a 1:1 track with the mentor.",
-    objective: 'Identify and unblock the specific bottlenecks preventing the first opportunity.',
-    detail: 'A direct and practical plan with personalized adjustments to positioning, resume, LinkedIn, funnel execution, and interview performance — until the mentee is back on a consistent growth track.',
+    text: "If after 3 months you haven't achieved clear results, such as interviews or international opportunities, we don't abandon you. Quite the opposite:",
+    objective:
+      'We increase the frequency of 1:1 sessions and enter a closer follow-up, directly with the mentor, to identify and solve what is blocking your first opportunity.',
+    detail:
+      'The mentor joins you in execution. Adjustments to positioning, resume, LinkedIn, application strategy and interview performance. Side by side until results show up.',
   },
 };
