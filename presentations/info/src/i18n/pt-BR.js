@@ -272,7 +272,7 @@ export default {
     tag: 'Próximo passo',
     headline: 'Quer saber como isso se aplica',
     headlineBold: 'ao seu momento?',
-    text: 'Agenda uma call diagnóstica gratuita com a gente. Em 30 minutos a gente entende onde você está, pra onde quer ir e se a mentoria faz sentido pro seu momento.',
+    text: 'Agenda uma call diagnóstica gratuita com a gente. A gente entende onde você está, pra onde quer ir e se a mentoria faz sentido pro seu momento.',
     button: 'Agendar minha call diagnóstica',
     note: 'Sem compromisso. Só uma conversa honesta sobre o seu próximo passo.',
   },
