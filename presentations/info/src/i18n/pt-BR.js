@@ -159,50 +159,83 @@ export default {
     ],
   },
 
-  pillars: {
-    tag: 'Os 8 Pilares',
-    title: 'Os Pilares da Mentoria',
+  pillar1: {
+    tag: 'Pilar 1',
+    title: 'Posicionamento Profissional',
     items: [
-      {
-        number: '01',
-        title: 'Posicionamento Profissional',
-        desc: 'Sair do modo "executor invisível" e virar referência técnica no mercado global',
-      },
-      {
-        number: '02',
-        title: 'Currículo Internacional',
-        desc: 'Montar um currículo que passa nos filtros de ATS e chama atenção de recrutadores lá fora',
-      },
-      {
-        number: '03',
-        title: 'LinkedIn Como Ativo',
-        desc: 'Transformar seu LinkedIn numa vitrine que atrai oportunidades internacionais',
-      },
-      {
-        number: '04',
-        title: 'Soft Skills Estratégicas',
-        desc: 'Comunicação técnica em inglês, ownership e mentalidade de engineer',
-      },
-      {
-        number: '05',
-        title: 'Gestão de Carreira',
-        desc: 'Planejamento de longo prazo pra crescer no mercado internacional',
-      },
-      {
-        number: '06',
-        title: 'Networking e Visibilidade',
-        desc: 'Marcar presença nas plataformas certas pra ser encontrado por recrutadores',
-      },
-      {
-        number: '07',
-        title: 'Plataformas + Simulação',
-        desc: 'Foco nas plataformas que importam e simulações reais de entrevistas internacionais',
-      },
-      {
-        number: '08',
-        title: 'Hard Skills',
-        desc: 'Prática de automação de testes com um fake app, desenvolvido pela Nexus Labz em parceria com a QA Without Borders Mentory',
-      },
+      'Transição de perfil genérico para narrativa clara e alinhada ao mercado global',
+      'Definição de alvo, especialização e contexto de produto para ser entendido em segundos',
+      'Construção de marca pessoal com foco em senioridade, impacto e consistência',
+    ],
+  },
+
+  pillar2: {
+    tag: 'Pilar 2',
+    title: 'Currículo Internacional',
+    items: [
+      'Estrutura objetiva, escaneável e compatível com ATS',
+      'Experiências descritas com contexto, ação e resultado, evitando lista de ferramentas',
+      'Ajuste por vaga para maximizar taxa de resposta e entrevistas',
+    ],
+  },
+
+  pillar3: {
+    tag: 'Pilar 3',
+    title: 'LinkedIn Como Ativo',
+    items: [
+      'Headline, About e Experiências alinhados ao seu cargo alvo e palavras-chave globais',
+      'Perfil desenhado para confirmar senioridade e especialização em poucos segundos',
+      'Estratégia de conteúdo e presença para reforçar autoridade de forma consistente',
+    ],
+  },
+
+  pillar4: {
+    tag: 'Pilar 4',
+    title: 'Soft Skills Estratégicas',
+    items: [
+      'Comunicação técnica em inglês com clareza, objetividade e segurança',
+      'Ownership e postura profissional em ambientes internacionais de alta performance',
+      'Estruturas práticas para alinhamento, reporte de risco e tomada de decisão',
+    ],
+  },
+
+  pillar5: {
+    tag: 'Pilar 5',
+    title: 'Gestão de Carreira',
+    items: [
+      'Planejamento para crescer no mercado internacional com visão de longo prazo',
+      'Estratégias para aumento de valor, estabilidade e progressão de senioridade',
+      'Como se manter relevante e desejado mesmo em ciclos de mercado diferentes',
+    ],
+  },
+
+  pillar6: {
+    tag: 'Pilar 6',
+    title: 'Networking e Visibilidade Internacional',
+    items: [
+      'Construção de presença em plataformas globais e canais onde recrutadores buscam',
+      'Estratégias de conexão, reputação e prova pública sem depender só do LinkedIn',
+      'Rotina de manutenção para se manter visível com consistência',
+    ],
+  },
+
+  pillar7: {
+    tag: 'Pilar 7',
+    title: 'Afunilamento de Plataformas + Simulação',
+    items: [
+      'Foco estratégico nas plataformas certas e execução com cadência previsível',
+      'Funil de candidaturas com métricas para ajustar rapidamente o que não performa',
+      'Simulações reais de entrevistas internacionais com feedback direcionado',
+    ],
+  },
+
+  pillar8: {
+    tag: 'Pilar 8',
+    title: 'Hard Skills',
+    items: [
+      'Prática de automação de testes com um fake app, desenvolvido pela Nexus Labz em parceria com a QA Without Borders Mentory',
+      'Experiência hands-on com Whynkle\'s Barbershop (Web e Mobile)',
+      'Aplicação real de ferramentas e frameworks de automação em cenários próximos do mercado',
     ],
   },
 

@@ -159,50 +159,83 @@ export default {
     ],
   },
 
-  pillars: {
-    tag: 'The 8 Pillars',
-    title: 'The Mentorship Pillars',
+  pillar1: {
+    tag: 'Pillar 1',
+    title: 'Professional Positioning',
     items: [
-      {
-        number: '01',
-        title: 'Professional Positioning',
-        desc: 'Move from "invisible executor" to a technical reference in the global market',
-      },
-      {
-        number: '02',
-        title: 'International Resume',
-        desc: 'Build a resume that passes ATS filters and catches the eye of international recruiters',
-      },
-      {
-        number: '03',
-        title: 'LinkedIn as an Asset',
-        desc: 'Turn your LinkedIn into a showcase that attracts international opportunities',
-      },
-      {
-        number: '04',
-        title: 'Strategic Soft Skills',
-        desc: 'Technical communication in English, ownership and engineer mindset',
-      },
-      {
-        number: '05',
-        title: 'Career Management',
-        desc: 'Long-term planning to grow in the international market',
-      },
-      {
-        number: '06',
-        title: 'Networking & Visibility',
-        desc: 'Be present on the right platforms to be found by recruiters',
-      },
-      {
-        number: '07',
-        title: 'Platforms + Simulation',
-        desc: 'Focus on the platforms that matter and real international interview simulations',
-      },
-      {
-        number: '08',
-        title: 'Hard Skills',
-        desc: 'Test automation practice with a fake app, developed by Nexus Labz in partnership with QA Without Borders Mentory',
-      },
+      'Transition from a generic profile to a clear narrative aligned with the global market',
+      'Define your target, specialization, and product context to be understood in seconds',
+      'Build a personal brand focused on seniority, impact, and consistency',
+    ],
+  },
+
+  pillar2: {
+    tag: 'Pillar 2',
+    title: 'International Resume',
+    items: [
+      'Objective, scannable structure compatible with ATS',
+      'Experiences described with context, action, and result, avoiding tool lists',
+      'Per-role adjustments to maximize response rate and interviews',
+    ],
+  },
+
+  pillar3: {
+    tag: 'Pillar 3',
+    title: 'LinkedIn as an Asset',
+    items: [
+      'Headline, About, and Experience sections aligned with your target role and global keywords',
+      'Profile designed to confirm seniority and specialization in seconds',
+      'Content and presence strategy to reinforce authority consistently',
+    ],
+  },
+
+  pillar4: {
+    tag: 'Pillar 4',
+    title: 'Strategic Soft Skills',
+    items: [
+      'Technical communication in English with clarity, directness, and confidence',
+      'Ownership and professional presence in high-performance international environments',
+      'Practical frameworks for alignment, risk reporting, and decision-making',
+    ],
+  },
+
+  pillar5: {
+    tag: 'Pillar 5',
+    title: 'Career Management',
+    items: [
+      'Planning to grow in the international market with a long-term vision',
+      'Strategies for increasing value, stability, and seniority progression',
+      'How to stay relevant and in demand across different market cycles',
+    ],
+  },
+
+  pillar6: {
+    tag: 'Pillar 6',
+    title: 'Networking & International Visibility',
+    items: [
+      'Building presence on global platforms and channels where recruiters search',
+      'Connection, reputation, and public proof strategies beyond LinkedIn alone',
+      'Maintenance routine to stay visible with consistency',
+    ],
+  },
+
+  pillar7: {
+    tag: 'Pillar 7',
+    title: 'Platform Funneling + Interview Simulation',
+    items: [
+      'Strategic focus on the right platforms with predictable execution cadence',
+      'Application funnel with metrics to quickly adjust what underperforms',
+      'Real international interview simulations with targeted feedback',
+    ],
+  },
+
+  pillar8: {
+    tag: 'Pillar 8',
+    title: 'Hard Skills',
+    items: [
+      'Test automation practice with a fake app, developed by Nexus Labz in partnership with QA Without Borders Mentory',
+      'Hands-on experience with Whynkle\'s Barbershop (Web & Mobile)',
+      'Real application of automation tools and frameworks in market-like scenarios',
     ],
   },
 
