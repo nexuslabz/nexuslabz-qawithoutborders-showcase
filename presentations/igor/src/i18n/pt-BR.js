@@ -282,7 +282,7 @@ export default {
     title: 'Como Funciona',
     items: [
       {
-        title: 'Encontros 1:1 por 12 meses',
+        title: 'Encontros 1:1 por até 12 meses',
         desc: 'Todos os encontros dessa turma especial são individuais. Acompanhamento direto com o mentor, focado na sua evolução',
       },
       {
@@ -361,7 +361,7 @@ export default {
     tag: 'Acesso',
     title: 'Acesso ao Método Completo',
     items: [
-      'Encontros 1:1 individuais por 12 meses',
+      'Encontros 1:1 individuais por até 12 meses',
       'Método completo de internacionalização',
       'Execução guiada passo a passo',
       'Simulações reais de entrevistas',

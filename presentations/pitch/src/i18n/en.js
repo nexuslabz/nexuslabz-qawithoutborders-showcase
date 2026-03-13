@@ -81,7 +81,7 @@ export default {
     cards: [
       {
         icon: '📅',
-        title: '12-Month Mentorship',
+        title: 'Up to 12-Month Mentorship',
         desc: 'Continuous and personalized follow-up throughout a full year',
       },
       {
@@ -205,7 +205,7 @@ export default {
       'Guided step-by-step execution',
       'Real interview simulations',
       'Community of professionals',
-      'Strategic mentorship for 12 months',
+      'Strategic mentorship for up to 12 months',
     ],
     price: 'R$ 5,000',
     priceNote: 'Full program value',

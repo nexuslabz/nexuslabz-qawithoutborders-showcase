@@ -126,7 +126,7 @@ export default {
     tag: 'How It Works',
     title: 'How It Works',
     items: [
-      { title: '1:1 Sessions for 12 months', desc: 'All sessions in this special cohort are individual. Direct guidance from the mentor, focused on your growth' },
+      { title: '1:1 Sessions for up to 12 months', desc: 'All sessions in this special cohort are individual. Direct guidance from the mentor, focused on your growth' },
       { title: 'Masterclass', desc: 'Live sessions with guests and real case resolution' },
       { title: 'Community', desc: 'Network of professionals with the same goal, sharing practices and opportunities' },
       { title: 'VIP Mentee Group', desc: 'Exclusive access to the mentee group for experience sharing, opportunities and peer support' },

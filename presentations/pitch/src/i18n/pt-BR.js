@@ -81,7 +81,7 @@ export default {
     cards: [
       {
         icon: '📅',
-        title: 'Mentoria 12 meses',
+        title: 'Mentoria até 12 meses',
         desc: 'Acompanhamento contínuo e personalizado ao longo de um ano completo',
       },
       {
@@ -205,7 +205,7 @@ export default {
       'Execução guiada passo a passo',
       'Simulações reais de entrevistas',
       'Comunidade de profissionais',
-      'Mentoria estratégica por 12 meses',
+      'Mentoria estratégica por até 12 meses',
     ],
     price: 'R$ 5.000',
     priceNote: 'Valor integral do programa',

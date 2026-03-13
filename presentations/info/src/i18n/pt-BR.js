@@ -126,7 +126,7 @@ export default {
     tag: 'Funcionamento',
     title: 'Como Funciona',
     items: [
-      { title: 'Encontros 1:1 por 12 meses', desc: 'Todos os encontros dessa turma especial são individuais. Acompanhamento direto com o mentor, focado na sua evolução' },
+      { title: 'Encontros 1:1 por até 12 meses', desc: 'Todos os encontros dessa turma especial são individuais. Acompanhamento direto com o mentor, focado na sua evolução' },
       { title: 'Masterclass', desc: 'Sessões ao vivo com convidados e resolução de casos reais' },
       { title: 'Comunidade', desc: 'Rede de profissionais com o mesmo objetivo, trocando práticas e oportunidades' },
       { title: 'Grupo VIP de Mentorados', desc: 'Acesso exclusivo ao grupo de mentorados com troca de experiências, oportunidades e suporte entre pares' },
