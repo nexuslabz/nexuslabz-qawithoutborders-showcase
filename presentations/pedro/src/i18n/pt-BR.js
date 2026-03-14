@@ -335,7 +335,7 @@ export default {
         price: 'R$ 2.500',
         installment: '12x R$ 249,90',
         features: [
-          'Tudo do Intensivo +',
+          'Tudo do Intensive +',
           'Encontros 1:1 por 6 meses',
           'Conteúdo na plataforma Kiwify',
           'Módulo de Hard Skills',
@@ -353,11 +353,12 @@ export default {
         installment: '12x R$ 499,90',
         recommended: true,
         features: [
-          'Tudo do Essencial +',
+          'Tudo do Essential +',
           'Encontros 1:1 por 12 meses',
           'Execução guiada passo a passo',
           'Simulações reais de entrevistas baseada em JD',
           'Lista dos melhores recrutadores para networking',
+          'Compartilhamento de vagas exclusivas que recebemos diretamente',
         ],
       },
     ],
