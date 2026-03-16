@@ -90,15 +90,16 @@ const t = inject('t');
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  max-width: 900px;
-  padding: 2rem;
+  gap: 1.25rem;
+  max-width: 1100px;
+  width: 100%;
+  padding: 1.5rem 3rem;
   z-index: 1;
 }
 
 .profile__layout {
   display: flex;
-  gap: 2.5rem;
+  gap: 2rem;
   align-items: flex-start;
   width: 100%;
 }
@@ -144,15 +145,15 @@ const t = inject('t');
 .profile__right {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
-  padding: 1.75rem;
+  gap: 1rem;
+  padding: 1.25rem;
   border-radius: var(--radius-lg);
   flex: 1;
 }
 
 .profile__desc {
-  font-size: 0.9rem;
-  line-height: 1.7;
+  font-size: 0.85rem;
+  line-height: 1.6;
   color: var(--white-70);
 }
 
@@ -181,7 +182,7 @@ const t = inject('t');
 }
 
 .profile__skills-box {
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   border: 1px solid var(--cyan-15);
   border-radius: var(--radius-md);
   background: var(--cyan-08);
@@ -194,7 +195,7 @@ const t = inject('t');
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--cyan);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
 }
 
 .profile__skills-list {
@@ -204,15 +205,15 @@ const t = inject('t');
 }
 
 .profile__current {
-  padding: 0.85rem 1rem;
+  padding: 0.65rem 0.85rem;
   border-radius: var(--radius-md);
   border-left: 3px solid var(--cyan);
   background: var(--cyan-08);
 }
 
 .profile__current p {
-  font-size: 0.82rem;
-  line-height: 1.6;
+  font-size: 0.8rem;
+  line-height: 1.5;
   color: var(--white-70);
 }
 </style>
