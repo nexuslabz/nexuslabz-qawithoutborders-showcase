@@ -8,6 +8,7 @@ import CoverSection from './sections/CoverSection.vue';
 import MentorsSection from './sections/MentorsSection.vue';
 import RealitySection from './sections/RealitySection.vue';
 import BeyondSalarySection from './sections/BeyondSalarySection.vue';
+import SocialProofSection from './sections/SocialProofSection.vue';
 import MistakeSection from './sections/MistakeSection.vue';
 import MarketSection from './sections/MarketSection.vue';
 import TurningPointSection from './sections/TurningPointSection.vue';
@@ -34,6 +35,7 @@ const sections = [
   MentorsSection,
   RealitySection,
   BeyondSalarySection,
+  SocialProofSection,
   MistakeSection,
   MarketSection,
   TurningPointSection,
@@ -43,11 +45,11 @@ const sections = [
   Pillar1Section,
   Pillar2Section,
   Pillar3Section,
-  Pillar4Section,
-  Pillar5Section,
   Pillar6Section,
   Pillar7Section,
+  Pillar4Section,
   Pillar8Section,
+  Pillar5Section,
   GuaranteeSection,
   MutualContractSection,
   CtaSection,

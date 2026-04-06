@@ -54,6 +54,44 @@ export default {
     closing: 'In practice, a Junior QA working internationally can match a Senior salary range in Brazil. The problem is rarely capability — it\'s usually presentation, clarity, and presence.',
   },
 
+  socialProof: {
+    tag: 'Real Results',
+    title: 'What Our Mentees Are Achieving',
+    results: [
+      {
+        photo: 'bernardo',
+        name: 'Bernardo Meine',
+        role: 'QA Engineer — Junior',
+        quote: "Man, I thought being a junior it would take months. It hasn't even been a month and I'm already in 3 processes paying in USD. I'm still processing this.",
+        stat: '3 interviews',
+        detail: 'with USD budget',
+        time: 'In less than 1 month',
+        color: 'cyan',
+      },
+      {
+        photo: 'marcio',
+        name: 'Marcio Ximenes',
+        role: 'QA Automation — Senior (+15 years)',
+        quote: '15 years in QA and I was stuck at the same salary. Redid my resume, adjusted LinkedIn and soon enough an offer of almost 20K came in. Should have done this sooner.',
+        stat: '≈ R$ 20k',
+        detail: 'offer received',
+        time: 'In 1 week',
+        color: 'purple',
+      },
+      {
+        photo: 'joao',
+        name: 'João André',
+        role: 'QA Analyst — Senior (+15 years)',
+        quote: "Two weeks in and I already have 2 interviews scheduled abroad. I already had the knowledge, I just didn't know how to show it to the market.",
+        stat: '2 interviews',
+        detail: 'with USD budget',
+        time: 'In 2 weeks',
+        color: 'pink',
+      },
+    ],
+    closing: 'Results in weeks, not years. Access to USD opportunities with hands-on application.',
+  },
+
   mistake: {
     tag: 'The Critical Mistake',
     title: 'The Mistake That Holds QAs Back',
@@ -99,12 +137,14 @@ export default {
     tag: 'The Method',
     title: 'The Method',
     steps: [
-      { number: '01', label: 'Positioning', desc: 'Define precisely how the market will see you and which roles you fit' },
-      { number: '02', label: 'Resume', desc: 'International structure and impact-driven language to pass ATS and screening' },
-      { number: '03', label: 'LinkedIn', desc: 'Strategic optimization for global searches and alignment with your target role' },
-      { number: '04', label: 'Visibility', desc: 'Active and consistent presence on relevant international platforms' },
-      { number: '05', label: 'Interviews', desc: 'Simulations based on real job openings with objective feedback for rapid improvement' },
-      { number: '06', label: 'Contracts', desc: 'Negotiation, structuring, and closing with global companies' },
+      { number: '01', label: 'Positioning', tags: ['QA Engineer', 'QA Analyst', 'SDET'], desc: 'We precisely define how the market will see you. QA Engineer? QA Analyst? SDET? Each role has a different narrative and positioning.' },
+      { number: '02', label: 'Resume', tags: ['resume.io', 'ATS-ready'], desc: 'Free access to resume.io to track your resume quality, reviewed by real international recruiters. International structure focused on impact.' },
+      { number: '03', label: 'LinkedIn', tags: ['ATS-optimized', 'Organic'], desc: 'We build a LinkedIn 100% active and ready for organic proposals. ATS-optimized and aligned with your international positioning.' },
+      { number: '04', label: 'Visibility', tags: ['Multi-platform'], desc: 'We clone your LinkedIn across the best global recruitment platforms. Consistent presence where recruiters actually search.' },
+      { number: '05', label: 'Interviews', tags: ['Hands-on', 'English'], desc: '100% hands-on preparation for English interviews through simulations and self-directed learning paths. Real feedback for fast growth.' },
+      { number: '06', label: 'Soft Skills', tags: ['Multicultural', 'Communication'], desc: 'Complete preparation on how to navigate multicultural teams and international squads. Technical communication in English with clarity and confidence.' },
+      { number: '07', label: 'Hard Skills', tags: ['Live Coding', 'Portfolio', 'Nexus Labz'], desc: 'Live Coding tips and preparation for technical stages, portfolio project and guided execution based on your desired stack. Bonus: we build your portfolio on top of real applications developed in partnership with Nexus Labz.' },
+      { number: '08', label: 'Contracts', tags: ['Legal', 'Export'], desc: 'We help you land the best contracts in record time, supporting questions about service export in Brazil, legal aspects and career maintenance.' },
     ],
     closing: "It's not loose content. It's a complete system for positioning and conversion.",
   },
@@ -190,7 +230,7 @@ export default {
   },
 
   pillar4: {
-    tag: 'Pillar 4',
+    tag: 'Pillar 6',
     title: 'Strategic Soft Skills',
     items: [
       'Technical communication in English with clarity, directness, and confidence',
@@ -200,7 +240,7 @@ export default {
   },
 
   pillar5: {
-    tag: 'Pillar 5',
+    tag: 'Pillar 8',
     title: 'Career Management',
     items: [
       'Planning to grow in the international market with a long-term vision',
@@ -210,7 +250,7 @@ export default {
   },
 
   pillar6: {
-    tag: 'Pillar 6',
+    tag: 'Pillar 4',
     title: 'Networking & International Visibility',
     items: [
       'Building presence on global platforms and channels where recruiters search',
@@ -220,7 +260,7 @@ export default {
   },
 
   pillar7: {
-    tag: 'Pillar 7',
+    tag: 'Pillar 5',
     title: 'Platform Funneling + Interview Simulation',
     items: [
       'Strategic focus on the right platforms with predictable execution cadence',
@@ -230,7 +270,7 @@ export default {
   },
 
   pillar8: {
-    tag: 'Pillar 8',
+    tag: 'Pillar 7',
     title: 'Hard Skills',
     items: [
       'Test automation practice with a fake app, developed by Nexus Labz in partnership with QA Without Borders Mentory',

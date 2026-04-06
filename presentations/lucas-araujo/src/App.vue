@@ -5,6 +5,7 @@ import CoverSection from './sections/CoverSection.vue';
 import MentorsSection from './sections/MentorsSection.vue';
 import ProfileSection from './sections/ProfileSection.vue';
 import WhyHereSection from './sections/WhyHereSection.vue';
+import SocialProofSection from './sections/SocialProofSection.vue';
 import YearOfQAsSection from './sections/YearOfQAsSection.vue';
 import ShoreModelsSection from './sections/ShoreModelsSection.vue';
 import IntlMarketSection from './sections/IntlMarketSection.vue';
@@ -38,6 +39,7 @@ const sections = [
   MentorsSection,
   ProfileSection,
   WhyHereSection,
+  SocialProofSection,
   YearOfQAsSection,
   ShoreModelsSection,
   IntlMarketSection,

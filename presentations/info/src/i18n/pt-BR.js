@@ -54,6 +54,44 @@ export default {
     closing: 'Na prática, um QA Júnior na gringa pode encostar em faixa de Sênior no Brasil. O problema raramente é capacidade. Normalmente é apresentação, clareza e presença.',
   },
 
+  socialProof: {
+    tag: 'Resultados Reais',
+    title: 'O Que Nossos Mentorados Estão Conquistando',
+    results: [
+      {
+        photo: 'bernardo',
+        name: 'Bernardo Meine',
+        role: 'QA Engineer — Júnior',
+        quote: 'Cara, eu achava que por ser júnior ia levar meses. Nem faz um mês e já estou em 3 processos seletivos para receber em dólar. Tô até agora processando isso.',
+        stat: '3 entrevistas',
+        detail: 'com budget em dólar',
+        time: 'Em menos de 1 mês',
+        color: 'cyan',
+      },
+      {
+        photo: 'marcio',
+        name: 'Marcio Ximenes',
+        role: 'QA Automation — Sênior (+15 anos)',
+        quote: '15 anos de QA e eu tava estagnado no mesmo salário. Refiz meu currículo, ajustei o LinkedIn e em pouco tempo já chegou proposta de quase 20 mil. Devia ter feito isso antes.',
+        stat: '≈ R$ 20 mil',
+        detail: 'proposta recebida',
+        time: 'Em 1 semana',
+        color: 'purple',
+      },
+      {
+        photo: 'joao',
+        name: 'João André',
+        role: 'QA Analyst — Sênior (+15 anos)',
+        quote: 'Duas semanas e já tenho 2 entrevistas agendadas pra fora. Conhecimento eu já tinha, só não sabia como mostrar isso pro mercado.',
+        stat: '2 entrevistas',
+        detail: 'com budget em dólar',
+        time: 'Em 2 semanas',
+        color: 'pink',
+      },
+    ],
+    closing: 'Resultados em semanas, não em anos. Acesso a oportunidades em dólar com aplicação prática.',
+  },
+
   mistake: {
     tag: 'O Erro Crítico',
     title: 'O Erro Que Trava QAs',
@@ -99,12 +137,14 @@ export default {
     tag: 'O Método',
     title: 'O Método',
     steps: [
-      { number: '01', label: 'Posicionamento', desc: 'Definir com precisão como o mercado vai te enxergar e qual vaga você serve' },
-      { number: '02', label: 'Currículo', desc: 'Estrutura internacional e linguagem orientada a impacto para passar em ATS e triagem' },
-      { number: '03', label: 'LinkedIn', desc: 'Otimização estratégica para buscas globais e coerência com o cargo alvo' },
-      { number: '04', label: 'Visibilidade', desc: 'Presença ativa e consistente em plataformas internacionais relevantes' },
-      { number: '05', label: 'Entrevistas', desc: 'Simulações com base em vagas reais e feedback objetivo para evolução rápida' },
-      { number: '06', label: 'Contratos', desc: 'Negociação, estruturação e fechamento com empresas globais' },
+      { number: '01', label: 'Posicionamento', tags: ['QA Engineer', 'QA Analyst', 'SDET'], desc: 'Definimos com precisão como o mercado vai te enxergar. QA Engineer? QA Analyst? SDET? Cada cargo tem uma narrativa e um posicionamento diferente.' },
+      { number: '02', label: 'Currículo', tags: ['resume.io', 'ATS-ready'], desc: 'Acesso 100% gratuito ao resume.io para acompanhar a qualidade do seu currículo, avaliado por recrutadores reais da gringa. Estrutura internacional orientada a impacto.' },
+      { number: '03', label: 'LinkedIn', tags: ['ATS-optimized', 'Orgânico'], desc: 'Criamos um LinkedIn 100% ativo e preparado para propostas orgânicas. Otimizado para ATS e coerente com seu posicionamento internacional.' },
+      { number: '04', label: 'Visibilidade', tags: ['Multi-plataforma'], desc: 'Clonamos seu LinkedIn nas melhores plataformas globais de recrutamento do mercado. Presença consistente onde os recrutadores buscam.' },
+      { number: '05', label: 'Entrevistas', tags: ['Hands-on', 'English'], desc: 'Preparação 100% hands-on para entrevistas em inglês através de simulações e trilhas de aprendizado autodidata. Feedback real para evolução rápida.' },
+      { number: '06', label: 'Soft Skills', tags: ['Multicultural', 'Comunicação'], desc: 'Preparação completa de como se portar dentro de times multiculturais e equipes estrangeiras. Comunicação técnica em inglês com clareza e segurança.' },
+      { number: '07', label: 'Hard Skills', tags: ['Live Coding', 'Portfólio', 'Nexus Labz'], desc: 'Dicas de Live Coding e preparação para etapas técnicas, projeto de portfólio e execução guiada baseada no seu desejo de stack. Bônus: montamos seu portfólio em cima de aplicações reais em parceria com a Nexus Labz.' },
+      { number: '08', label: 'Contratos', tags: ['Jurídico', 'Exportação'], desc: 'Ajudamos você a conseguir os melhores contratos em tempo recorde, suportando dúvidas sobre exportação de serviços no Brasil, parte jurídica e manutenção de carreira.' },
     ],
     closing: 'Não é conteúdo solto. É um sistema completo de posicionamento e conversão.',
   },
@@ -190,7 +230,7 @@ export default {
   },
 
   pillar4: {
-    tag: 'Pilar 4',
+    tag: 'Pilar 6',
     title: 'Soft Skills Estratégicas',
     items: [
       'Comunicação técnica em inglês com clareza, objetividade e segurança',
@@ -200,7 +240,7 @@ export default {
   },
 
   pillar5: {
-    tag: 'Pilar 5',
+    tag: 'Pilar 8',
     title: 'Gestão de Carreira',
     items: [
       'Planejamento para crescer no mercado internacional com visão de longo prazo',
@@ -210,7 +250,7 @@ export default {
   },
 
   pillar6: {
-    tag: 'Pilar 6',
+    tag: 'Pilar 4',
     title: 'Networking e Visibilidade Internacional',
     items: [
       'Construção de presença em plataformas globais e canais onde recrutadores buscam',
@@ -220,7 +260,7 @@ export default {
   },
 
   pillar7: {
-    tag: 'Pilar 7',
+    tag: 'Pilar 5',
     title: 'Afunilamento de Plataformas + Simulação',
     items: [
       'Foco estratégico nas plataformas certas e execução com cadência previsível',
@@ -230,7 +270,7 @@ export default {
   },
 
   pillar8: {
-    tag: 'Pilar 8',
+    tag: 'Pilar 7',
     title: 'Hard Skills',
     items: [
       'Prática de automação de testes com um fake app, desenvolvido pela Nexus Labz em parceria com a QA Without Borders Mentory',
