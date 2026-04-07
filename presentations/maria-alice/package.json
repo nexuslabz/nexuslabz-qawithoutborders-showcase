@@ -1,0 +1,18 @@
+{
+  "name": "@qawb/maria-alice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Presentation: QA Without Borders Mentory - Maria Alice Sales Pitch",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.5",
+    "vite": "^8.0.3"
+  }
+}
