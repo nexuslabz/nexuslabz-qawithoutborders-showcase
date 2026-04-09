@@ -30,7 +30,7 @@ export default {
     tag: 'Quem é',
     name: 'Delicio Mendes',
     nameFull: 'Delicio Mendes da Silva Neto',
-    role: 'QA Engineer | Manual Testing | Mobile Testing | API Testing | Software Engineering',
+    role: 'QA Engineer | Manual & Mobile Testing | API Testing',
     description:
       'O Delicio já está no mercado internacional. Trabalha como Junior QA Engineer na Wanna, empresa americana baseada em Chicago, há mais de 2 anos. No dia a dia, executa testes funcionais, regressão, smoke e aceite, cria e mantém casos de teste detalhados, e reporta bugs com clareza pro time de dev. Colabora diretamente com times globais de produto, desenvolvimento e design. Antes de migrar pra QA, atuou como Betting Analyst na mesma empresa, o que mostra capacidade de transição e adaptação.',
     highlights: [

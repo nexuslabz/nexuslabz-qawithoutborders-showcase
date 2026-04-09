@@ -91,7 +91,7 @@ const t = inject('t');
   flex-direction: column;
   align-items: center;
   gap: 1.25rem;
-  max-width: 1100px;
+  max-width: 1200px;
   width: 100%;
   padding: 1.5rem 3rem;
   z-index: 1;
@@ -110,6 +110,7 @@ const t = inject('t');
   align-items: center;
   gap: 1rem;
   flex-shrink: 0;
+  width: 200px;
 }
 
 .profile__photo-wrapper {
@@ -128,18 +129,19 @@ const t = inject('t');
 }
 
 .profile__name {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--pure-white);
   text-align: center;
-  white-space: nowrap;
+  line-height: 1.3;
 }
 
 .profile__role {
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   color: var(--cyan);
   font-weight: 500;
   text-align: center;
+  line-height: 1.4;
 }
 
 .profile__right {
