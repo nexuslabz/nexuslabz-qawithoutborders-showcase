@@ -32,30 +32,30 @@ export default {
     nameFull: 'Delicio Mendes da Silva Neto',
     role: 'QA Engineer | Manual & Mobile Testing | API Testing',
     description:
-      'O Delicio já está no mercado internacional. Trabalha como Junior QA Engineer na Wanna, empresa americana baseada em Chicago, há mais de 2 anos. No dia a dia, executa testes funcionais, regressão, smoke e aceite, cria e mantém casos de teste detalhados, e reporta bugs com clareza pro time de dev. Colabora diretamente com times globais de produto, desenvolvimento e design. Antes de migrar pra QA, atuou como Betting Analyst na mesma empresa, o que mostra capacidade de transição e adaptação.',
+      'O Delicio é um QA Engineer com mais de 2 anos de experiência em testes manuais, funcionais e mobile. Atua na Wanna, onde é responsável por testes de regressão, smoke, aceite e funcional, além de criar e manter casos de teste detalhados e reportar bugs pro time de dev. Tem formação em Engenharia de Software, base em Python, e já passou por uma transição de carreira interna (de Betting Analyst pra QA), o que mostra adaptabilidade e foco.',
     highlights: [
-      { label: 'Experiência', value: '+2 anos como QA (mercado internacional)' },
+      { label: 'Experiência', value: '+2 anos como QA Engineer' },
       { label: 'Formação', value: 'Eng. de Software (Estácio)' },
-      { label: 'Mercado', value: 'Já atua pra empresa dos EUA' },
+      { label: 'Base técnica', value: 'Python, Manual & API Testing' },
     ],
-    companies: 'Wanna (Chicago, IL — EUA)',
+    companies: 'Wanna',
     skills:
       'Manual Testing, Functional Testing, Regression Testing, Smoke Testing, Acceptance Testing, Mobile Testing, API Testing, Test Case Design, Bug Reporting, Python, Software Engineering, Cross-functional Collaboration',
     current:
-      'Hoje atua como Junior QA Engineer na Wanna, empresa americana baseada em Chicago. Responsável por testes manuais completos, documentação de planos e casos de teste, reporte de bugs e colaboração com times globais de produto e desenvolvimento.',
+      'Hoje atua como Junior QA Engineer na Wanna. Responsável por testes manuais completos, documentação de planos e casos de teste, reporte de bugs e colaboração com times de produto e desenvolvimento.',
   },
 
   whyHere: {
     tag: 'Por que o Delicio está aqui hoje?',
-    headline: 'Para transformar a experiência que já tem no mercado internacional',
-    headlineBold: 'em um salto de carreira para posições pleno/sênior com salário maior.',
+    headline: 'Para dar o próximo passo na carreira de QA',
+    headlineBold: 'e acelerar a evolução de junior pra pleno com direcionamento certo.',
     points: [
-      'O Delicio já fez o que a maioria dos QAs brasileiros ainda sonha: ele já trabalha pra uma empresa americana. Isso é um diferencial enorme. Ele tem vivência real com times globais, comunicação em inglês no dia a dia, e entende como funciona o ritmo de trabalho lá fora.',
-      'Mas ele ainda está como junior. E o mercado internacional paga muito mais pra quem se posiciona como pleno ou sênior. O Delicio já tem a base: testes completos, documentação, colaboração cross-functional. O próximo passo é agregar automação, mostrar impacto com números e subir de nível.',
-      'Com formação em Engenharia de Software, experiência real em empresa dos EUA e inglês no dia a dia, o Delicio tem um ponto de partida que poucos brasileiros têm. Falta o posicionamento estratégico pra acessar vagas que pagam 2x, 3x mais do que ele ganha hoje.',
+      'O Delicio já tem uma base sólida: mais de 2 anos atuando como QA, experiência com testes funcionais, regressão, mobile e documentação completa. Ele sabe o que é entregar qualidade no dia a dia. A questão agora é como transformar isso em crescimento real de carreira.',
+      'Ele tem formação em Engenharia de Software e base em Python, o que abre portas pra automação de testes. A transição de testes manuais pra automação é o caminho mais rápido pra subir de nível e acessar oportunidades melhores.',
+      'O que falta não é capacidade técnica. É posicionamento, estratégia e as ferramentas certas pra mostrar o valor que ele já entrega. A mentoria existe pra preencher exatamente esse gap.',
     ],
     closing:
-      'Quem já está no mercado internacional e entrega qualidade pro time sabe o caminho. O Delicio só precisa acelerar a evolução pra chegar no próximo nível.',
+      'Quem já entrega qualidade há 2 anos e tem formação em engenharia tem a base. O Delicio só precisa do direcionamento certo pra acelerar.',
   },
 
   yearOfQAs: {
@@ -100,7 +100,7 @@ export default {
       ],
     },
     closing:
-      'O Delicio já está no mercado internacional como junior. A diferença entre ficar no junior e subir pra pleno é de US$ 1k pra US$ 3–6k/mês. Com automação, posicionamento e os resultados certos no currículo, essa evolução é o próximo passo natural.',
+      'O Delicio está como junior com base sólida em testes manuais e formação em engenharia. Com automação no perfil, posicionamento certo e resultados mensuráveis, o salto pra pleno abre um leque de oportunidades com salários muito maiores.',
   },
 
   beyondSalary: {
@@ -142,10 +142,10 @@ export default {
     tag: 'A Solução',
     title: 'Como podemos solucionar esse problema?',
     steps: [
-      { number: '01', label: 'Posicionamento', desc: '1 foco + 1 alternativa. Definir quem o Delicio é em 1 frase: QA Engineer com +2 anos de experiência internacional na Wanna (EUA), testes completos, colaboração com times globais, formação em Eng. de Software e base em Python.' },
-      { number: '02', label: 'LinkedIn/CV', desc: 'Reconstruir o perfil destacando a experiência internacional real: testes em empresa americana, colaboração cross-functional, documentação completa. Posicionar como pleno com evidências concretas de impacto.' },
-      { number: '03', label: 'Inglês na prática', desc: 'O Delicio já usa inglês no trabalho. O foco é afinar a comunicação técnica pra entrevistas: vocabulário de test strategy, sprint review, comunicação assertiva com stakeholders. Simulações pra performar em processos seletivos.' },
-      { number: '04', label: 'Execução internacional', desc: 'Montar a estratégia pra subir de nível: onde aplicar como pleno, como mostrar a experiência internacional como diferencial, como agregar automação ao perfil. Mock interviews focadas e feedback semanal.' },
+      { number: '01', label: 'Posicionamento', desc: '1 foco + 1 alternativa. Definir quem o Delicio é em 1 frase: QA Engineer com +2 anos de experiência em testes manuais e mobile, formação em Eng. de Software, base em Python e foco em evolução pra automação.' },
+      { number: '02', label: 'LinkedIn/CV', desc: 'Reconstruir o perfil com foco em resultados e impacto: tipos de teste que domina, documentação que mantém, colaboração com times. Traduzir a experiência de junior pra um posicionamento de pleno com evidências concretas.' },
+      { number: '03', label: 'Evolução técnica', desc: 'Agregar automação de testes ao perfil. Com Python e formação em engenharia, o Delicio tem a base pra aprender Cypress, Playwright ou outra ferramenta moderna. Isso é o que separa junior de pleno no mercado.' },
+      { number: '04', label: 'Execução e estratégia', desc: 'Montar o plano de evolução: como se posicionar pra vagas melhores, como mostrar impacto real, como se preparar pra entrevistas. Acompanhamento direto com feedback semanal.' },
     ],
   },
 
@@ -211,9 +211,9 @@ export default {
     tag: 'Por que essa mentoria?',
     title: 'Por que essa mentoria faz sentido pra você?',
     points: [
-      'Porque o Delicio já está no mercado internacional. Poucos QAs brasileiros podem dizer isso. Ele já tem experiência real com times americanos, comunicação em inglês no dia a dia e entende o ritmo de trabalho lá fora. A base já existe.',
-      'A mentoria ajuda a transformar essa experiência de junior em posicionamento de pleno. Não é sobre aprender QA. É sobre mostrar o que ele já faz de um jeito que abre portas pra vagas que pagam 2x, 3x mais. Com automação no perfil e resultados mensuráveis, o salto é viável.',
-      'Com experiência internacional real, formação em Engenharia de Software e base em Python, o Delicio tem tudo pra acessar vagas melhores. A mentoria encurta o caminho com estratégia, automação na prática e acesso direto a quem já está nos níveis mais altos do mercado global.',
+      'Porque o Delicio já tem a base: +2 anos de QA, testes completos, documentação, colaboração com times de dev e produto. Ele já sabe entregar qualidade. O que falta é o plano certo pra transformar isso em crescimento de carreira.',
+      'A mentoria acelera a evolução de junior pra pleno. Isso significa agregar automação ao perfil, aprender a mostrar impacto com números, e se posicionar de um jeito que abre portas pra oportunidades melhores. Tudo com acompanhamento direto.',
+      'Com formação em Engenharia de Software e base em Python, o Delicio tem o fundamento técnico pra ir além do teste manual. A mentoria dá o direcionamento, as ferramentas e a prática pra ele dar esse salto com segurança.',
     ],
   },
 
